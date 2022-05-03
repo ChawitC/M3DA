@@ -22,8 +22,7 @@
     <Viewpoint DEF='CameraTop' description='CameraTop' orientation='1 0 0 -1.571' position='0 2200 0.0001097' fieldOfView='0.5'/>
 
     <Transform DEF='Lathe_1'>
-
-      <Transform rotation='0 -1.57 0 1.57' translation='0 0 0'>
+      <Transform rotation='0 -1.57 0 1.57' translation='0 -250 0'>
 
         <!-- CONTROLS ROTATION OF THE MODEL-->
         <timeSensor DEF='RotationTimer' cycleInterval='4' loop='true' enabled='false'></timeSensor>
@@ -31,9 +30,7 @@
         <orientationInterpolator DEF='Rotator' key='0 0.25 0.5 0.75 1' keyValue='0 1 0 0 0 1 0 1.57079 0 1 0 3.14159  0 1 0 4.71239  0 1 0 6.28317'></orientationInterpolator>
 
         <ROUTE fromNode='RotationTimer' fromField='fraction_changed' toNode='Rotator' toField='set_fraction'></ROUTE>
-        <ROUTE fromNode='Rotator' fromField='value_changed' toNode='CokeCan-Wrapper' toField='set_rotation'></ROUTE>
-
-
+        <ROUTE fromNode='Rotator' fromField='value_changed' toNode='Lathe_1' toField='set_rotation'></ROUTE>
         <Shape>
         <Appearance DEF='MAT_Mat'>
           <Material diffuseColor='0.5 0.5 0.5' shininess='0.025' specularColor='0.025 0.025 0.025'/>

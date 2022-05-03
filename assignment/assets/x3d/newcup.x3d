@@ -22,6 +22,7 @@
     <Viewpoint DEF='CameraTop' description='CameraTop' orientation='1 0 0 -1.571' position='0 2200 0.0001097' fieldOfView='0.5'/>
 
     <Transform DEF='Lathe_4'>
+      <Transform rotation='0 1.57 0 1.57' translation='0 -250 0'>
       <Transform DEF='Lathe_3'>
         <Shape>
           <Appearance DEF='MAT_Lathe'>
@@ -34,6 +35,7 @@
           </IndexedFaceSet>
         </Shape>
       </Transform>
+    </Transform>
     </Transform>
     <TimeSensor DEF='Timer' cycleInterval='3' loop='true'/>
   </Scene>

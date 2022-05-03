@@ -36,7 +36,7 @@
     },
     {
       "x3dModelTitle": "Dr Pepper X3D Model",
-      "x3dCreationMethod": "This X3D model of the Dr Pepper Cup has been created in Maxon Cinema 4D exported to VRML2.0 and converted, using the instant reality transcoders, to X3D for display online..",
+      "x3dCreationMethod": "This X3D model of the Dr Pepper Cup has been created in Maxon Cinema 4D exported to VRML2.0 and converted, using the instant reality transcoders, to X3D for display online.",
       "title": "Dr Pepper - Liquid Sunshine",
       "subTitle": "23 fruit flavours",
       "description": "Dr Pepper's unique, sparkling blend of 23 fruit flavours has been around for well over a century and it's still the same, with that distinctive flavour you just can't quite put your tongue on. It was created by Texas pharmacist Charles Alderton in 1885. He gave a sample of the first ever batch to Wade Morrison, a local shop owner, and Mr Morrison instantly agreed to stock the drink. The distinctive, bold taste of Dr Pepper has been popular ever since."
@@ -48,6 +48,9 @@
     {
       "CameraTitle": "Camera Views",
       "CameraSubtitle": "These buttons select a range of X3D model viewpoints"
+    },
+    {
+      "AboutText": "This Web application is done as a Module assignment<br>part of 920G5 Mobile 3D Applications (Spring Semester 21/22)<br><br>By Chawit Chiwarattanaphan<br>Candidate number: 244152<br>Email: cc841@sussex.ac.uk"
     }
   ]
 }

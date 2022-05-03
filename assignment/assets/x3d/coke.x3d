@@ -22,7 +22,6 @@
     <Viewpoint DEF='CameraTop' description='CameraTop' orientation='1 0 0 -1.571' position='0 2200 0.0001097' fieldOfView='0.5274'/>
 
     <Transform DEF='CokeCan-Wrapper'>
-
       <Transform rotation='-1 0 0 -1.57079' translation='194.1 -50.35 -2.24e-005'>
 
         <!-- CONTROLS ROTATION OF THE MODEL-->
