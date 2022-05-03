@@ -18,7 +18,7 @@
 /* Some simple CSS rules for styling p, h1 to h6, etc. in the main 
 content’s container */
 body {
-    background-color: rgba(182, 231, 243, 1.0);
+    background-color: rgba(255,255,255,0.8);
 }
 
 .main_contents {
@@ -133,7 +133,7 @@ Bootstrap defaults tend to make your site look like a Bootstrap clone!
 helps to stop your site looking like a Bootstrap clone! 
 */
 .navbar_coca_cola {
-    background-color: #760003; /* Set navbar background color */
+    background-color: rgba(175,0,0,1); /* Set navbar background color */
     /* border-color: yellow; Sets the navbar border color */
     /* border-style: solid; */
     border-width: 0px;
@@ -143,13 +143,13 @@ helps to stop your site looking like a Bootstrap clone!
 /*CSS rule to overwrite the navbar-brand font color*/
 
 .navbar_coca_cola .navbar-brand {
-    color: rgb(245, 235, 235);
+    color: rgba(255,255,255,1);
 }
 
 /* CSS rule to overwrite the navbar-brand font hover color */
 
 .navbar_coca_cola .navbar-brand:hover {
-    color: green;
+    color: darkslategrey;
 }
 
 /* NAVIGATION MENU*/
@@ -180,8 +180,8 @@ font color and background colour
 .navbar_coca_cola .navbar-nav .nav-item > .active,
 .navbar_coca_cola .navbar-nav > .active > a:hover,
 .navbar_coca_cola .navbar-nav > .active > a:focus {
-   color: #760003; /* Font color for active font */
-   background-color: #3399ff; /* Blue color for background */
+   color: darkslategray; /* Font color for active font */
+   background-color: white; /* Blue color for background */
 }
 /* A set of CSS rules to change the Bootstrap defaults for the menu link 
 text color, hover, background, focus
@@ -226,8 +226,8 @@ text color, hover, background, focus
 
 /* CSS rule to style the footer */
 .footer {
-    color: #030303;
-    background-color: #760003; /* Set navbar footer background color same as header */
+    color: rgba(175,0,0,1);
+    background-color: rgba(175,0,0,1); /* Set navbar footer background color same as header */
     height: 50px;
 }
 
@@ -253,7 +253,7 @@ text color, hover, background, focus
 @media (min-width: 576px) {
     /* CSS rule to style the footer */
     .footer {
-        background-color: #257600;
+        /*background-color: rgba(175,0,0,1);*/
         height: 60px;
     }
 
@@ -262,8 +262,8 @@ text color, hover, background, focus
     }
 
     .navbar-text > p {
-        color: rgb(228, 75, 15);
-        font-size: 18px;
+        color: rgba(255,255,255,0.8);
+        font-size: 22px;
     }
 
     .copyright {
@@ -282,26 +282,26 @@ text color, hover, background, focus
 
 .fa-twitter-square:before {
     content: "\f081";
-    color: green;
-    font-size: 1em;
+    color: white;
+    font-size: 2em;
 }
 
 .fa-github-square:before {
     content: "\f092";
-    color: yellow;
-    font-size: 1em;
+    color: white;
+    font-size: 2em;
 }
 
 .fa-google-plus-square:before {
     content: "\f0d4";
-    color: blue;
-    font-size: 1em;
+    color: white;
+    font-size: 2em;
 }
 
 .fa-facebook-square:before {
     content: "\f082";
-    color: red;
-    font-size: 1em;
+    color: white;
+    font-size: 2em;
 }
 
 .img-thumbnail {
@@ -317,8 +317,8 @@ text color, hover, background, focus
 /* Lifted form the bootsrap.css file, and modified to emulate the nav-bar 
 menu styling */
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
-    color: #760003; /* Font color for active font */
-    background-color: #3399ff; /* Blue color for background */
+    color: darkslategray; /* Font color for active font */
+    background-color: white; /* Blue color for background */
     border-color: #dee2e6 #dee2e6 #fff;
 }
 .nav-tabs .nav-link {
@@ -380,7 +380,7 @@ menu styling */
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 1.0);
     padding: 2px;
-    height: 500px;
+    height: 400px;
 }
 
 X3D, x3d {

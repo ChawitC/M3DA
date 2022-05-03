@@ -49,6 +49,9 @@ $(document).ready(function () {
             $('#home').hide();
             $('#about').hide();
             $('#models').show();
+            $('#coke').show();
+            $('#sprite').hide();
+            $('#pepper').hide();
             $('#interaction').show();
             $('#cokeDescription').show();
             $('#spriteDescription').hide();
@@ -58,6 +61,9 @@ $(document).ready(function () {
             $('#home').hide();
             $('#about').hide();
             $('#models').show();
+            $('#coke').hide();
+            $('#sprite').show();
+            $('#pepper').hide();
             $('#interaction').show();
             $('#cokeDescription').hide();
             $('#spriteDescription').show();
@@ -67,6 +73,9 @@ $(document).ready(function () {
             $('#home').hide();
             $('#about').hide();
             $('#models').show();
+            $('#coke').hide();
+            $('#sprite').hide();
+            $('#pepper').show();
             $('#interaction').show();
             $('#cokeDescription').hide();
             $('#spriteDescription').hide();
@@ -110,7 +119,7 @@ $(document).ready(function () {
 });
 
 
-function swap(selected) {
+/*function swap(selected) {
    //initialize, dont display all-->
     document.getElementById('home').style.display = 'none';
     document.getElementById('coke').style.display = 'none';
@@ -118,36 +127,34 @@ function swap(selected) {
     document.getElementById('pepper').style.display = 'none';
     //<!--initialize, dont display all-- >
     document.getElementById(selected).style.display = 'block';
-}
+}*/
 
+// stylings are based on Brand's colour scheme
 function changeLook() {
     counter += 1;
     switch (counter) {
         case 1:
-            document.getElementById('body').style.backgroundColor = 'lightblue';
-            document.getElementById('header').style.backgroundColor = '#FF0000';
-            document.getElementById('footer').style.backgroundColor = '#FF9900';
+            document.getElementById('body').style.backgroundColor = 'rgba(0,152,71,1)';
+            document.getElementById('header').style.backgroundColor = 'rgba(23,85,141,1)';
+            document.getElementById('footer').style.backgroundColor = 'rgba(23,85,141,1)';
             break;
         case 2:
-            document.getElementById('body').style.backgroundColor = '#FF6600';
-            document.getElementById('header').style.backgroundColor = '#FF9999';
-            document.getElementById('footer').style.backgroundColor = '#996699';
+            document.getElementById('body').style.backgroundColor = 'rgba(207,64,55,1)';
+            document.getElementById('header').style.backgroundColor = 'rgba(123,0,43,1)';
+            document.getElementById('footer').style.backgroundColor = 'rgba(123,0,43,1)';
             break;
+
         case 3:
-            document.getElementById('body').style.backgroundColor = 'coral';
-            document.getElementById('header').style.backgroundColor = 'darkcyan';
-            document.getElementById('footer').style.backgroundColor = 'darksalmon';
-            break;
-        case 4:
-            document.getElementById('body').style.backgroundColor = 'lightgrey';
-            document.getElementById('header').style.backgroundColor = 'chocolate';
-            document.getElementById('footer').style.backgroundColor = 'dimgrey';
+            document.getElementById('body').style.backgroundColor = 'grey';
+            document.getElementById('header').style.backgroundColor = 'black';
+            document.getElementById('footer').style.backgroundColor = 'black';
             counter = 0;
             break;
+
     }
 }
 function changeBack() {
-    document.getElementById('body').style.backgroundColor = '#FFFFFF';
+    document.getElementById('body').style.backgroundColor = 'rgba(255, 255, 255, 0.8)';
     document.getElementById('header').style.backgroundColor = 'rgba(175,0,0,1)';
     document.getElementById('footer').style.backgroundColor = 'rgba(175,0,0,1)';
 }

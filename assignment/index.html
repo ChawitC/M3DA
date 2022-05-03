@@ -43,14 +43,16 @@
             <!-- Link -->
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" href="javascript:swap('home')">Home</a>
+                    <a id="navHome" class="nav-link" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" title="Home Page">Home</a>
                 </li>
                 <li class="nav-item">
                     <a id="navAbout" class="nav-link" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" title="About Web 3D Applications" data-content="3D Apps is a final year and postgraduate module ...">About</a>
                 </li>
-                <!-- Dropdown -->
                 <li class="nav-item">
                     <a id="navModels" class="nav-link" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" title="X3D Models" data-content="There are three X3D models: Coke, Sprite and Pepper">Models</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://github.com/ChawitC/M3DA">GitHub</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#" data-toggle="modal" data-target="#contactModal">Contact</a>
@@ -129,8 +131,17 @@
 
         <!-- About page block element -->
         <div id="about">
-            Insert About Contents
-        </div> <!-- End home page -->
+            <p>
+                This Web application is done as a module assignment part of
+                <br>
+                920G5 Mobile 3D Applications (Spring Semester 21/22)<br>
+                <br>
+                by Chawit Chiwarattanaphan<br>
+                Candidate number: 244152<br>
+                Email: cc841@sussex.ac.uk<br>
+            </p>
+        </div> 
+        <!-- End home page -->
 
         <!-- Start X3D models and 3D Image Gallery -->
         <div id="models">
@@ -142,7 +153,7 @@
                         <div class="card-header">
                             <ul class="nav nav-tabs card-header-tabs">
                                 <li class="nav-item">
-                                    <a id="navCoke" class="nav-link active" href="#">Coke</a>
+                                    <a id="navCoke" class="nav-link" href="#">Coke</a>
                                 </li>
                                 <li class="nav-item">
                                     <a id="navSprite" class="nav-link" href="#">Sprite</a>
@@ -247,7 +258,7 @@
                         <a href="#" class="btn btn-primary btn-responsive" onclick="cameraBottom();">Bottom</a>
 
                         <div class="card-text x3dCameraDescription drinksText">
-                            <p>These buttons select a limited range of X3D model viewpoints, use the dropdown menu for more camera views</p>
+                            <p>These buttons select a range of X3D model viewpoints, use the dropdown menu for more camera views</p>
                         </div>
                     </div>
                 </div>
@@ -356,7 +367,9 @@
             </div>
         </div> <!-- End pepper description contents -->
 
-    </div>  <!-- End 3D App SPA Contents -->
+    </div>  
+
+    <!-- End 3D App SPA Contents -->
     <!--Your 3D App footer-->
     <nav class="navbar navbar-expand-sm footer" id="footer">
         <div class="container">
@@ -366,67 +379,67 @@
                 </p>
             </div>
             <div class="navbar-text social">
-                <a href="#"><i class="fab fa-github-square fa-2x fa-pull-right"></i></a>
-                <a href="#"><i class="fab fa-google-plus-square fa-2x fa-pull-right"></i></a>
-                <a href="#"><i class="fab fa-twitter-square fa-2x fa-pull-right"></i></a>
-                <a href="#"><i class="fab fa-facebook-square fa-2x fa-pull-right"></i></a>
+                <a href="https://github.com/ChawitC/M3DA"><i class="fab fa-github-square fa-2x fa-pull-right"></i></a>
+                <!--<a href="#"><i class="fab fa-google-plus-square fa-2x fa-pull-right"></i></a>-->
+                <a href="https://twitter.com/CocaCola"><i class="fab fa-twitter-square fa-2x fa-pull-right"></i></a>
+                <a href="https://en-gb.facebook.com/Coca-Cola/"><i class="fab fa-facebook-square fa-2x fa-pull-right"></i></a>
             </div>
         </div>
     </nav>
 
     <!--My 3D App modals-->
-    <!--Contact modal-->
-    <!--The Modal-->
-    <div class="modal fade" id="contactModal">
-        <div class="modal-dialog">
-            <div class="modal-content">
+                <!--Contact modal-->
+                <!--The Modal-->
+                <div class="modal fade" id="contactModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
 
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">3D App Contact Details</h4>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <!-- Modal Header -->
+                            <div class="modal-header">
+                                <h4 class="modal-title">3D App Contact Details</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+
+                            <!-- Modal body -->
+                            <div class="modal-body">
+                                <p>Chawit Chiwarattanaphan, Email: cc841@sussex.ac.uk</p>
+                            </div>
+
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="contactModal">
+
                 </div>
 
-                <!-- Modal body -->
-                <div class="modal-body">
-                    <p>Chawit Chiwarattanaphan, Email: cc841@sussex.ac.uk</p>
-                </div>
-
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                </div>
-
-            </div>
-        </div>
-    </div>
-    <div class="modal fade" id="contactModal">
-
-    </div>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!--
+                <!-- Optional JavaScript -->
+                <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+                <!--
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"  ></script>
     -->
-    <script src="scripts/js/jquery-3.6.0.js"></script>
-    <script src="scripts/js/popper.min.js"></script>
-    <script src="scripts/js/bootstrap.js"></script>
-    <script src="scripts/js/swap_style.js"></script>
-    <script src="https://kit.fontawesome.com/ceb742868d.js" crossorigin="anonymous"></script>
-    <!-- <script type='text/javascript' src='http://www.x3dom.org/x3dom/release/x3dom.js' /></script> -->
-    <script type='text/javascript' src='scripts/js/x3dom.js'></script>
+                <script src="scripts/js/jquery-3.6.0.js"></script>
+                <script src="scripts/js/popper.min.js"></script>
+                <script src="scripts/js/bootstrap.js"></script>
+                <script src="scripts/js/swap_style.js"></script>
+                <script src="https://kit.fontawesome.com/ceb742868d.js" crossorigin="anonymous"></script>
+                <!-- <script type='text/javascript' src='http://www.x3dom.org/x3dom/release/x3dom.js' /></script> -->
+                <script type='text/javascript' src='scripts/js/x3dom.js'></script>
 
-    <!-- JavaScript and PHP based Gallery generator  -->
-    <script src="scripts/js/gallery_generator.js"></script>
+                <!-- JavaScript and PHP based Gallery generator  -->
+                <script src="scripts/js/gallery_generator.js"></script>
 
-    <!--fancyBox3 => http://fancyapps.com/fancybox/3/ -->
-    <script src="scripts/js/jquery.fancybox.min.js"></script>
+                <!--fancyBox3 => http://fancyapps.com/fancybox/3/ -->
+                <script src="scripts/js/jquery.fancybox.min.js"></script>
 
-    <!-- JavaScript model interactions -->
-    <script src="scripts/js/modelInteractions.js"></script>
+                <!-- JavaScript model interactions -->
+                <script src="scripts/js/modelInteractions.js"></script>
 
-    <script src="scripts/js/getJsonData.js"></script>
+                <script src="scripts/js/getJsonData.js"></script>
 </body>
 </html>
