@@ -22,7 +22,7 @@
     <Viewpoint DEF='CameraTop' description='CameraTop' orientation='1 0 0 -1.571' position='0 2200 0.0001097' fieldOfView='0.5'/>
 
     <Transform DEF='Lathe_1'>
-      <Transform rotation='0 -1.57 0 1.57' translation='0 -250 0'>
+      <Transform rotation='0 -0.5 0 1.57' translation='0 -250 0'>
 
         <!-- CONTROLS ROTATION OF THE MODEL-->
         <timeSensor DEF='RotationTimer' cycleInterval='4' loop='true' enabled='false'></timeSensor>

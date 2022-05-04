@@ -50,9 +50,16 @@ $(document).ready(function (){
         //Get camera contents data
         $('.x3dCameraTitle').html('<h2>' + jsonObj.pageTextData[8].CameraTitle + '<h2>');
         $('.x3dCameraSubtitle').html('<p>' + jsonObj.pageTextData[8].CameraSubtitle + '</p>');
-        //$('.aboutPageText').html('<h2>' + jsonObj.pageTextData[8].aboutText + '</h2>');
-        //Get "about" text
-        $('#aboutPageText').html('<h2>' + jsonObj.pageTextData[9].AboutText + '</h2>');
 
+        //Get "about" text
+        $('#aboutPageText').html('<h3>' + jsonObj.pageTextData[9].AboutText + '</h3>');
+
+        //Get Render images addresses
+        $('#cokeRAddr1').html(jsonObj.pageTextData[10].cokeRender1Addr);
+        $('#cokeRAddr2').html(jsonObj.pageTextData[10].cokeRender2Addr);
+        $('#spriteRAddr1').html(jsonObj.pageTextData[10].spriteRender1Addr);
+        $('#SpriteRAddr2').html(jsonObj.pageTextData[10].spriteRender2Addr);
+        $('#pepperRAddr1').html(jsonObj.pageTextData[10].pepperRender1Addr);
+        $('#pepperRAddr2').html(jsonObj.pageTextData[10].pepperRender2Addr);         
     });
 });

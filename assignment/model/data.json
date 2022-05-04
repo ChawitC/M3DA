@@ -43,7 +43,7 @@
     },
     {
       "galleryTitle": "3D Images",
-      "galleryDescription": "3D images rendered in Maxon Cinema4D with Hardware Renderer"
+      "galleryDescription": "3D images rendered in Maxon Cinema4D with Hardware Renderer,<br>Composited in Adobe Photoshop CC2017"
     },
     {
       "CameraTitle": "Camera Views",
@@ -51,6 +51,14 @@
     },
     {
       "AboutText": "This Web application is done as a Module assignment<br>part of 920G5 Mobile 3D Applications (Spring Semester 21/22)<br><br>By Chawit Chiwarattanaphan<br>Candidate number: 244152<br>Email: cc841@sussex.ac.uk"
+    },
+    {
+      "cokeRender1Addr": "assets/images/gallery_images/Coke1comp.png",
+      "cokeRender2Addr": "assets/images/gallery_images/Coke1.png",
+      "spriteRender1Addr": "assets/images/gallery_images/Sprite1.png",
+      "spriteRender2Addr": "assets/images/gallery_images/Sprite2.png",
+      "pepperRender1Addr": "assets/images/gallery_images/Sprite1.png",
+      "pepperRender2Addr": "assets/images/gallery_images/Sprite1.png"
     }
   ]
 }
