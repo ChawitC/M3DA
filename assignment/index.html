@@ -296,9 +296,9 @@
                                             <li class="nav-item">
                                                 <a class="nav-link active dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Render</a>
                                                 <div class="dropdown-menu">
-                                                    <a class="dropdown-item" href="#">Polygon</a>
+                                                    <a class="dropdown-item" href="#" onclick="poly();">Polygon</a>
                                                     <a class="dropdown-item" href="#" onclick="wireframe();">Wireframe</a>
-                                                    <a class="dropdown-item" href="#">Vertex</a>
+                                                    <a class="dropdown-item" href="#" onclick="vertex();">Vertex</a>
                                                 </div>
                                             </li>
                                             <!-- Dropdown nav-tab -->
@@ -317,10 +317,12 @@
                                         <div class="card-Title x3dRendersubtitle drinksText">
                                             <h3>Render and Lighting Options</h3>
                                         </div>
-                                        <a href="#" class="btn btn-success btn-responsive">Poly</a>
-                                        <a href="#" class="btn btn-secondary btn-responsive" onclick="wireframe();">Wire</a>
-                                        <a href="#" class="btn btn-success btn-responsive" onclick="headlight();">Headlight</a>
-                                        <a href="#" class="btn btn-outline-dark btn-responsive" onclick="resetview();">Default</a>
+                                        <a href="#" class="btn btn-primary btn-responsive" onclick="poly();">Poly</a>
+                                        <a href="#" class="btn btn-primary btn-responsive" onclick="wireframe();">Wire</a>
+                                        <a href="#" class="btn btn-primary btn-responsive" onclick="vertex();">Vertex</a>
+                                        <a href="#" class="btn btn-secondary btn-responsive" onclick="headlight();">Headlight</a>
+                                        <a href="#" class="btn btn-secondary btn-responsive" onclick="Omni();">Omni light</a>
+                                        <a href="#" class="btn btn-secondary btn-responsive" onclick="resetview();">Default</a>
                                         <div class="card-text x3dRenderDescription drinksText">
                                             <p>These buttons select a limited number of render and lighting options; use the dropdown menus for more options</p>
                                         </div>
@@ -376,7 +378,7 @@
         <div class="container">
             <div class="navbar-text float-left copyright">
                 <p>
-                    <span class="align-baseline"></span>&copy Mobile Web 3D Applications </span> / <a href='javascript:changeLook()'>Restyle</a> / <a href='javascript:changeBack()'>Reset</a>
+                    <span class="align-baseline">&copy 2022 Mobile Web 3D Applications </span> / <a href='javascript:changeLook()'>Restyle</a> / <a href='javascript:changeBack()'>Reset</a>
                 </p>
             </div>
             <div class="navbar-text social">

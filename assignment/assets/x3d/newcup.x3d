@@ -3,7 +3,7 @@
 <X3D xmlns:xsd='http://www.w3.org/2001/XMLSchema-instance' profile='Full' version='3.0' xsd:noNamespaceSchemaLocation='http://www.web3d.org/specifications/x3d-3.0.xsd'>
   <Scene DEF='scene'>
     <!-- CONTROLS NAVIGATION MODE AND HEAD LIGHT-->
-    <NavigationInfo  DEF="headlight" headlight="true" type='"EXAMINE"'/>
+    <NavigationInfo  DEF="headlight3" headlight="true" type='"EXAMINE"'/>
 
     <!-- CONTROLS LIGHTS-->
     <PointLight DEF='Omni001-6' intensity='0.4' location='-1860 1456 -1416' radius='10750'/>
@@ -45,6 +45,6 @@
       </Transform>
     </Transform>
     <!--</Transform>-->
-    <TimeSensor DEF='Timer' cycleInterval='3' loop='true'/>
+    <!--<TimeSensor DEF='Timer' cycleInterval='3' loop='true'/>-->
   </Scene>
 </X3D>
