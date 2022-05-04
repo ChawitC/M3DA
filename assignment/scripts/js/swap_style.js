@@ -10,7 +10,7 @@ $(document).ready(function () {
         $('#home').show();
         $('#about').hide();
         $('#models').hide();
-        $('#interaction').hide();
+        $('#galleryrow').hide();
         $('#cokeDescription').hide();
         $('#spriteDescription').hide();
         $('#pepperDescription').hide();
@@ -20,7 +20,7 @@ $(document).ready(function () {
             $('#home').show();
             $('#about').hide();
             $('#models').hide();
-            $('#interaction').hide();
+            $('#galleryrow').hide();
             $('#cokeDescription').hide();
             $('#spriteDescription').hide();
             $('#pepperDescription').hide();
@@ -30,7 +30,7 @@ $(document).ready(function () {
             $('#home').hide();
             $('#about').show();
             $('#models').hide();
-            $('#interaction').hide();
+            $('#galleryrow').hide();
             $('#cokeDescription').hide();
             $('#spriteDescription').hide();
             $('#pepperDescription').hide();
@@ -40,7 +40,7 @@ $(document).ready(function () {
             $('#home').hide();
             $('#about').hide();
             $('#models').show();
-            $('#interaction').show();
+            $('#galleryrow').show();
             $('#cokeDescription').show();
             $('#spriteDescription').hide();
             $('#pepperDescription').hide();
@@ -52,7 +52,7 @@ $(document).ready(function () {
             $('#coke').show();
             $('#sprite').hide();
             $('#pepper').hide();
-            $('#interaction').show();
+            $('#galleryrow').show();
             $('#cokeDescription').show();
             $('#spriteDescription').hide();
             $('#pepperDescription').hide();
@@ -64,7 +64,7 @@ $(document).ready(function () {
             $('#coke').hide();
             $('#sprite').show();
             $('#pepper').hide();
-            $('#interaction').show();
+            $('#galleryrow').show();
             $('#cokeDescription').hide();
             $('#spriteDescription').show();
             $('#pepperDescription').hide();
@@ -76,7 +76,7 @@ $(document).ready(function () {
             $('#coke').hide();
             $('#sprite').hide();
             $('#pepper').show();
-            $('#interaction').show();
+            $('#galleryrow').show();
             $('#cokeDescription').hide();
             $('#spriteDescription').hide();
             $('#pepperDescription').show();
@@ -89,7 +89,7 @@ $(document).ready(function () {
             $('#coke').show();
             $('#sprite').hide();
             $('#pepper').hide();
-            $('#interaction').show();
+            $('#galleryrow').show();
             $('#cokeDescription').show();
             $('#spriteDescription').hide();
             $('#pepperDescription').hide();
@@ -99,7 +99,7 @@ $(document).ready(function () {
             $('#coke').hide();
             $('#sprite').show();
             $('#pepper').hide();
-            $('#interaction').show();
+            $('#galleryrow').show();
             $('#cokeDescription').hide();
             $('#spriteDescription').show();
             $('#pepperDescription').hide();
@@ -109,7 +109,7 @@ $(document).ready(function () {
             $('#coke').hide();
             $('#sprite').hide();
             $('#pepper').show();
-            $('#interaction').show();
+            $('#galleryrow').show();
             $('#cokeDescription').hide();
             $('#spriteDescription').hide();
             $('#pepperDescription').show();

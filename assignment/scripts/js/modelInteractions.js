@@ -15,19 +15,6 @@ function stopRotation() {
     document.getElementById('model__RotationTimer2').setAttribute('enabled', spinning.toString());
     document.getElementById('model__RotationTimer3').setAttribute('enabled', spinning.toString());
 }
-
-function animateModel() {
-    if (document.getElementById('model__RotationTimer').getAttribute('enabled') != 'true')
-        document.getElementById('model__RotationTimer').setAttribute('enabled', 'true');
-    else
-        document.getElementById('model__RotationTimer').setAttribute('enabled', 'false');
-
-    if (document.getElementById('model2__RotationTimer2').getAttribute('enabled') != 'true')
-        document.getElementById('model2__RotationTimer2').setAttribute('enabled', 'true');
-    else
-        document.getElementById('model2__RotationTimer2').setAttribute('enabled', 'false');
-}
-
 //simple counter logic that will allow manual switching between modes
 //Poly = 0
 //Wireframe = 1
@@ -101,14 +88,6 @@ function vertex() {
         }
     }
     currentmode = 2;
-}
-
-function resetview() {
-    var e = document.getElementById('model');
-    e.runtime.togglePoints(true);
-    e.runtime.togglePoints(true);
-    //e.runtime.showAll(true);
-    //e.runtime.resetView(true);
 }
 
 var lightOn = true;

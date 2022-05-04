@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #main_3d_image {
-    background-image: url(../assets/images/site_images/main_3D.jpg);
+    background-image: url(../assets/images/site_images/main_new.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     /* The div block for the main_3d_image has no vertical size, 
@@ -54,20 +54,20 @@ so we need a height to see the background image */
 }
 
 #main_text h2 {
-    color: rgba(0,102,153,1);
-    font-size: 20px;
+    color: darkred;
+    font-size: 30px;
     margin-top: 0px;
     margin-bottom: 5px;
 }
 
 #main_text h3 {
-        font-size: 15px;
+        font-size: 20px;
         margin-top: 5px;
         margin-bottom: 5px;
 }
 
 #main_text p {
-     font-size: 12px;
+     font-size: 15px;
      margin: 0px;
      line-height: 1.2;
 }
@@ -149,7 +149,7 @@ helps to stop your site looking like a Bootstrap clone!
 /* CSS rule to overwrite the navbar-brand font hover color */
 
 .navbar_coca_cola .navbar-brand:hover {
-    color: darkslategrey;
+    color: black;
 }
 
 /* NAVIGATION MENU*/
@@ -168,7 +168,7 @@ defaults to Bootstrap CSS on dropdown!
 */
 .navbar_coca_cola .navbar-nav > li > a:hover,
 .navbar_coca_cola .navbar-nav > li > a:focus {
-   color: green;
+   color: black;
 }
 
 .navbar_coca_cola .navbar-nav .nav-item {
@@ -180,7 +180,7 @@ font color and background colour
 .navbar_coca_cola .navbar-nav .nav-item > .active,
 .navbar_coca_cola .navbar-nav > .active > a:hover,
 .navbar_coca_cola .navbar-nav > .active > a:focus {
-   color: darkslategray; /* Font color for active font */
+   color: black; /* Font color for active font */
    background-color: white; /* Blue color for background */
 }
 /* A set of CSS rules to change the Bootstrap defaults for the menu link 
@@ -191,7 +191,7 @@ text color, hover, background, focus
 */
 .navbar_coca_cola .navbar-nav > li > a:hover,
 .navbar_coca_cola .navbar-nav > li > a:focus {
-    color: green;
+    color: black;
 }
 
 /* These next two CSS rules control the style of the icon bar */
@@ -310,7 +310,7 @@ text color, hover, background, focus
     background-color: #fff;
     border: 1px solid #dee2e6;
     border-radius: 0.25rem;
-    max-width: 100%;
+    max-width: 200%;
     height: auto;
 }
 
@@ -329,7 +329,7 @@ menu styling */
 }
     /* Added this to emulate the nav-bar link styling */
     .nav-tabs .nav-link:hover {
-        color: green;
+        color: black;
         border: 1px solid transparent;
     }
 

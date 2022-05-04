@@ -1,7 +1,7 @@
 var xmlHttp = new XMLHttpRequest();
 var htmlCode = "";
 var response;
-var numberOfColumns = 2;
+var numberOfColumns = 6;
 
 
 $(document).ready(function () {

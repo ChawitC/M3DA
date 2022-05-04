@@ -53,13 +53,15 @@ $(document).ready(function (){
 
         //Get "about" text
         $('#aboutPageText').html('<h3>' + jsonObj.pageTextData[9].AboutText + '</h3>');
-
-        //Get Render images addresses
-        $('#cokeRAddr1').html(jsonObj.pageTextData[10].cokeRender1Addr);
-        $('#cokeRAddr2').html(jsonObj.pageTextData[10].cokeRender2Addr);
-        $('#spriteRAddr1').html(jsonObj.pageTextData[10].spriteRender1Addr);
-        $('#SpriteRAddr2').html(jsonObj.pageTextData[10].spriteRender2Addr);
-        $('#pepperRAddr1').html(jsonObj.pageTextData[10].pepperRender1Addr);
-        $('#pepperRAddr2').html(jsonObj.pageTextData[10].pepperRender2Addr);         
+        $('#aboutUnderstandingHead').html('<h2>' + jsonObj.pageTextData[9].AboutUnderstandHead + '</h2>');
+        $('#aboutUnderstandingText').html('<h3>' + jsonObj.pageTextData[9].AboutUnderstandText + '</h3>');
+        
+        //Get Render images addresses (commented out lines are unused addresses, since the rest of the image is fetched by gallery_generator.js)
+        document.getElementById("cokeRAddr1").setAttribute("href",jsonObj.pageTextData[10].cokeRender1Addr);
+        //document.getElementById("cokeRAddr2").setAttribute("href",jsonObj.pageTextData[10].cokeRender2Addr);
+        document.getElementById("spriteRAddr1").setAttribute("href",jsonObj.pageTextData[10].spriteRender1Addr);
+        //document.getElementById("spriteRAddr2").setAttribute("href",jsonObj.pageTextData[10].spriteRender2Addr);
+        document.getElementById("pepperRAddr1").setAttribute("href",jsonObj.pageTextData[10].pepperRender1Addr);
+        //document.getElementById("pepperRAddr2").setAttribute("href",jsonObj.pageTextData[10].pepperRender2Addr);
     });
 });
