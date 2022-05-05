@@ -58,9 +58,15 @@
       "cokeRender1Addr": "assets/images/gallery_images/Coke1comp.png",
       "cokeRender2Addr": "assets/images/gallery_images/Coke1.png",
       "spriteRender1Addr": "assets/images/gallery_images/Sprite1.png",
-      "spriteRender2Addr": "assets/images/gallery_images/Sprite2.png",
-      "pepperRender1Addr": "assets/images/gallery_images/Coke1.png",
-      "pepperRender2Addr": "assets/images/gallery_images/Sprite1.png"
+      "spriteRender2Addr": "assets/images/gallery_images/Sprite2comp.png",
+      "pepperRender1Addr": "assets/images/gallery_images/Pepper1.png",
+      "pepperRender2Addr": "assets/images/gallery_images/Pepper2comp.png"
+    },
+    {
+      "siteImg1Addr": "assets/images/site_images/coca_cola.jpg",
+      "siteImg2Addr": "assets/images/site_images/sprite.jpg",
+      "siteImg3Addr": "assets/images/site_images/dr_pepper.jpg",
+      "siteImgBannerAddr": "background-image: url('assets/images/site_images/main_new.jpg');"
     }
   ]
 }

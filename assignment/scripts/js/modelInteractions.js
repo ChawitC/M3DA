@@ -1,13 +1,25 @@
 //adapted from example code 'benskitchen.com'
 
 var spinning = false;
+var speed = 1;
 
-function spin() {
-    spinning = !spinning;
+function spin(speed) {
+   
+    if (spinning) {  // The animation needs to be stopped first before changing to another animation
+    spinning = false;
     document.getElementById('model__RotationTimer').setAttribute('enabled', spinning.toString());
     document.getElementById('model__RotationTimer2').setAttribute('enabled', spinning.toString());
     document.getElementById('model__RotationTimer3').setAttribute('enabled', spinning.toString());
+    }
+    spinning = true;
+    document.getElementById('model__RotationTimer').setAttribute('enabled', spinning.toString());
+    document.getElementById('model__RotationTimer').setAttribute('cycleInterval', speed);
+    document.getElementById('model__RotationTimer2').setAttribute('enabled', spinning.toString());
+    document.getElementById('model__RotationTimer2').setAttribute('cycleInterval', speed);
+    document.getElementById('model__RotationTimer3').setAttribute('enabled', spinning.toString());
+    document.getElementById('model__RotationTimer3').setAttribute('cycleInterval', speed);
 }
+
 
 function stopRotation() {
     spinning = false;
@@ -97,18 +109,6 @@ function headlight() {
     document.getElementById('model__headlight').setAttribute('headlight', lightOn.toString());
     document.getElementById('model__headlight2').setAttribute('headlight', lightOn.toString());
     document.getElementById('model__headlight3').setAttribute('headlight', lightOn.toString());
-}
-
-var OmniOn = true;
-
-function Omni() {
-    OmniOn = !OmniOn;
-    document.getElementById('model__Omni11').setAttribute('OmniOn', lightOn.toString());
-    document.getElementById('model__Omni12').setAttribute('OmniOn', lightOn.toString());
-    document.getElementById('model__Omni13').setAttribute('OmniOn', lightOn.toString());
-    document.getElementById('model__Omni14').setAttribute('OmniOn', lightOn.toString());
-    document.getElementById('model__Omni15').setAttribute('OmniOn', lightOn.toString());
-    document.getElementById('model__Omni16').setAttribute('OmniOn', lightOn.toString());
 }
 
 function cameraFront() {

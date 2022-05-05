@@ -63,5 +63,11 @@ $(document).ready(function (){
         //document.getElementById("spriteRAddr2").setAttribute("href",jsonObj.pageTextData[10].spriteRender2Addr);
         document.getElementById("pepperRAddr1").setAttribute("href",jsonObj.pageTextData[10].pepperRender1Addr);
         //document.getElementById("pepperRAddr2").setAttribute("href",jsonObj.pageTextData[10].pepperRender2Addr);
+
+        //Get Site images addresses
+        document.getElementById("siteImg1").setAttribute("src", jsonObj.pageTextData[11].siteImg1Addr);
+        document.getElementById("siteImg2").setAttribute("src", jsonObj.pageTextData[11].siteImg2Addr);
+        document.getElementById("siteImg3").setAttribute("src", jsonObj.pageTextData[11].siteImg3Addr);
+        document.getElementById("main_3d_image").setAttribute("style", jsonObj.pageTextData[11].siteImgBannerAddr);
     });
 });
