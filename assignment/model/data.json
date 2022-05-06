@@ -52,7 +52,9 @@
     {
       "AboutText": "This Web application is done as a Module assignment<br>part of 920G5 Mobile 3D Applications (Spring Semester 21/22)<br><br>By Chawit Chiwarattanaphan<br>Candidate number: 244152<br>Email: cc841@sussex.ac.uk",
       "AboutUnderstandHead": "Points of Deep Understanding<br>",
-      "AboutUnderstandText": "(1) Models were made in Maxon Cinema4D<br>with texture using UV projection method (Coke can)<br>or texture baking (Sprite bottle & Dr Pepper cup)<br><br>(2) Models were exported from Maxon Cinema4D's format (.c4d) exported to VRML2.0 (.wrc)<br>then were coverted to X3D/X3DOM (.x3d) with Instant Reality Transcoders<br>Headlights, rotation animation, and camera were hard coded to .x3d after the fact, since compatability from C4D was limited<br><br>(3) 3D Renders were done in Maxon Cinema4D using Hardware Renderer, 6 Renders were made<br><br>(4) Version control were done with GitHub, with commit to main branch on every significant actions<br>https://github.com/ChawitC/M3DA/commits/main<br>"
+      "AboutUnderstandText": "(1) Models were made in Maxon Cinema4D<br>with texture using UV projection method (Coke can)<br>or texture baking (Sprite bottle & Dr Pepper cup)<br><br>(2) Models were exported from Maxon Cinema4D's format (.c4d) exported to VRML2.0 (.wrc)<br>then were coverted to X3D/X3DOM (.x3d) with Instant Reality Transcoders<br>Headlights, rotation animation, and camera were hard coded to .x3d after the fact, since compatability from C4D was limited<br><br>(3) 3D Renders were done in Maxon Cinema4D using Hardware Renderer, 6 Renders were made<br><br>(4) Version control were done with GitHub, with commit to main branch on every significant actions<br>https://github.com/ChawitC/M3DA/commits/main<br>",
+      "AboutRefHead": "References",
+      "AboutRefText": "(1) ...."
     },
     {
       "cokeRender1Addr": "assets/images/gallery_images/Coke1comp.png",
@@ -66,7 +68,10 @@
       "siteImg1Addr": "assets/images/site_images/coca_cola.jpg",
       "siteImg2Addr": "assets/images/site_images/sprite.jpg",
       "siteImg3Addr": "assets/images/site_images/dr_pepper.jpg",
-      "siteImgBannerAddr": "background-image: url('assets/images/site_images/main_new.jpg');"
+      "siteImgBannerAddr": "background-image: url('assets/images/site_images/main_new.jpg');",
+      "siteCarou1Addr": "assets/images/site_images/carou_coke.png",
+      "siteCarou2Addr": "assets/images/site_images/carou_sprite.png", 
+      "siteCarou3Addr": "assets/images/site_images/carou_pepper.png"
     }
   ]
 }

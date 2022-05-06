@@ -52,9 +52,11 @@ $(document).ready(function (){
         $('.x3dCameraSubtitle').html('<p>' + jsonObj.pageTextData[8].CameraSubtitle + '</p>');
 
         //Get "about" text
-        $('#aboutPageText').html('<h3>' + jsonObj.pageTextData[9].AboutText + '</h3>');
-        $('#aboutUnderstandingHead').html('<h2>' + jsonObj.pageTextData[9].AboutUnderstandHead + '</h2>');
-        $('#aboutUnderstandingText').html('<h3>' + jsonObj.pageTextData[9].AboutUnderstandText + '</h3>');
+        $('#aboutPageText').html('<p>' + jsonObj.pageTextData[9].AboutText + '</p>');
+        $('#aboutUnderstandingHead').html('<h1>' + jsonObj.pageTextData[9].AboutUnderstandHead + '</h1>');
+        $('#aboutUnderstandingText').html('<p>' + jsonObj.pageTextData[9].AboutUnderstandText + '</p>');
+        $('#aboutReferenceHead').html('<h1>' + jsonObj.pageTextData[9].AboutRefHead + '</h1>');
+        $('#aboutReferenceText').html('<p>' + jsonObj.pageTextData[9].AboutRefText + '</p>');
         
         //Get Render images addresses (commented out lines are unused addresses, since the rest of the image is fetched by gallery_generator.js)
         document.getElementById("cokeRAddr1").setAttribute("href",jsonObj.pageTextData[10].cokeRender1Addr);
@@ -69,5 +71,8 @@ $(document).ready(function (){
         document.getElementById("siteImg2").setAttribute("src", jsonObj.pageTextData[11].siteImg2Addr);
         document.getElementById("siteImg3").setAttribute("src", jsonObj.pageTextData[11].siteImg3Addr);
         document.getElementById("main_3d_image").setAttribute("style", jsonObj.pageTextData[11].siteImgBannerAddr);
+        document.getElementById("carouimg1").setAttribute("src", jsonObj.pageTextData[11].siteCarou1Addr);
+        document.getElementById("carouimg2").setAttribute("src", jsonObj.pageTextData[11].siteCarou2Addr);
+        document.getElementById("carouimg3").setAttribute("src", jsonObj.pageTextData[11].siteCarou3Addr);
     });
 });

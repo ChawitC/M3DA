@@ -1,4 +1,5 @@
 var counter = 0;
+var bgcode = 0;
 
 $(document).ready(function () {
 
@@ -118,17 +119,6 @@ $(document).ready(function () {
 
 });
 
-
-/*function swap(selected) {
-   //initialize, dont display all-->
-    document.getElementById('home').style.display = 'none';
-    document.getElementById('coke').style.display = 'none';
-    document.getElementById('sprite').style.display = 'none';
-    document.getElementById('pepper').style.display = 'none';
-    //<!--initialize, dont display all-- >
-    document.getElementById(selected).style.display = 'block';
-}*/
-
 // stylings are based on Brand's colour scheme
 function changeLook() {
     counter += 1;
@@ -157,4 +147,30 @@ function changeBack() {
     document.getElementById('body').style.backgroundColor = 'rgba(255, 255, 255, 0.8)';
     document.getElementById('header').style.backgroundColor = 'rgba(175,0,0,1)';
     document.getElementById('footer').style.backgroundColor = 'rgba(175,0,0,1)';
+}
+
+//swapping background 3D image
+function change3Dbg(bgcode) {
+    if (bgcode == 0) {
+        //document.getElementsByClassName('model3D').style.backgroundImage = "none"; 
+        // targeting class doesn't work, so I had to seperate instances to different IDs
+        document.getElementById('model3D1').style.backgroundImage = 'none';
+        document.getElementById('model3D2').style.backgroundImage = "none";
+        document.getElementById('model3D3').style.backgroundImage = "none";
+    }
+    else if (bgcode == 1) {
+        document.getElementById('model3D1').style.backgroundImage = 'url(assets/images/site_images/blur_coke.png)';
+        document.getElementById('model3D2').style.backgroundImage = 'url(assets/images/site_images/blur_coke.png)';
+        document.getElementById('model3D3').style.backgroundImage = 'url(assets/images/site_images/blur_coke.png)';
+    }
+    else if (bgcode == 2) {
+        document.getElementById('model3D1').style.backgroundImage = 'url(assets/images/site_images/blur_sprite.png)';
+        document.getElementById('model3D2').style.backgroundImage = 'url(assets/images/site_images/blur_sprite.png)';
+        document.getElementById('model3D3').style.backgroundImage = 'url(assets/images/site_images/blur_sprite.png)';
+    }
+    else if (bgcode == 3) {
+        document.getElementById('model3D1').style.backgroundImage = 'url(assets/images/site_images/blur_pepper.png)';
+        document.getElementById('model3D2').style.backgroundImage = 'url(assets/images/site_images/blur_pepper.png)';
+        document.getElementById('model3D3').style.backgroundImage = 'url(assets/images/site_images/blur_pepper.png)';
+    }
 }

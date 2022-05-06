@@ -41,11 +41,11 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
     /* The div block for the main_3d_image has no vertical size, 
 so we need a height to see the background image */
-    height: 300px;
+    height: 200px;
 }
 #main_text {
     float: left;
-    margin: 5%;
+    margin: 1%;
     width: 90%;
     display: block;
     background-color: rgba(255,255,255,0.8);
@@ -70,6 +70,41 @@ so we need a height to see the background image */
      font-size: 15px;
      margin: 0px;
      line-height: 1.2;
+}
+
+#aboutPageText p {
+    font-size: 25px;
+    margin: 0px;
+    line-height: 1.3;
+    font-family: 'Oswald', sans-serif;
+}
+
+#aboutUnderstandingHead h1 {
+    font-size: 35px;
+    margin: 0px;
+    line-height: 1.3;
+    font-family: 'Oswald', sans-serif;
+}
+
+#aboutUnderstandingText p {
+    font-size: 25px;
+    margin: 0px;
+    line-height: 1.2;
+    font-family: 'Oswald', sans-serif;
+}
+
+#aboutReferenceHead h1 {
+    font-size: 35px;
+    margin: 0px;
+    line-height: 1.3;
+    font-family: 'Oswald', sans-serif;
+}
+
+#aboutReferenceText p {
+    font-size: 25px;
+    margin: 0px;
+    line-height: 1.2;
+    font-family: 'Oswald', sans-serif;
 }
 
 .card {
@@ -174,7 +209,7 @@ defaults to Bootstrap CSS on dropdown!
 .navbar_coca_cola .navbar-nav .nav-item {
    margin-top: 0px;
 }
-        /* CSS rule to overwrite the bootstrap.css rules for setting the active 
+/* CSS rule to overwrite the bootstrap.css rules for setting the active 
 font color and background colour
 */
 .navbar_coca_cola .navbar-nav .nav-item > .active,
@@ -206,9 +241,9 @@ text color, hover, background, focus
 /* Let's style the dropdown menu
 */
 .dropdown-menu {
-    text-align: -webkit-left;
-    background-color: #e98074;
-    margin-top: 20px; /* Experiment to move the dropdown menu down */
+    text-align: left;
+    background-color: lightgray;
+    margin-top: 20px; 
 }
 
 .dropdown-menu .dropdown-item { /*text colour*/
@@ -217,7 +252,7 @@ text color, hover, background, focus
 
 .dropdown-menu .dropdown-item:hover {
    color: #030303;
-   background-color: darkred;
+   background-color: indianred;
 }
 
 .navbar_coca_cola .navbar-toggler {
@@ -377,6 +412,7 @@ menu styling */
 
 .model3D {
     background-color: rgba(255, 255, 255, 0.2);
+    background-image: url(./../assets/images/site_images/blur_coke.png);
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 1.0);
     padding: 2px;
@@ -388,4 +424,9 @@ X3D, x3d {
     border: 1px solid rgba(255, 0, 0, 1.0);
     width: 100%;
     height: 100%
+}
+
+.carousel-inner > .carousel-item > img {
+    height: 50%;
+    margin: auto;
 }

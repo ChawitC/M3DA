@@ -21,7 +21,6 @@
 <body id="body">
     <!-- Logo and navigation bar -->
     <nav class="navbar sticky-top navbar-expand-sm navbar_coca_cola" id="header">
-        <!-- <nav class="navbar navbar-expand-sm navbar-dark bg-dark"> -->
         <!-- Brand -->
         <div class="logo">
             <a class="navbar-brand" href="index.html">
@@ -68,10 +67,10 @@
         <!-- Home page block element -->
         <div id="home">
             <div class="row">
-                <!-- Main_3D Image or Carousel -->
+                <!-- Main_3D Image -->
                 <div class="col-sm-12">
                     <div id="main_3d_image" style="">
-                        <div id="main_text" class="col-xs-12 col-sm-4">
+                        <div id="main_text" class="col-xs-12 col-sm-8">
                             <div id="title_home"></div>
                             <div id="subTitle_home"></div>
                             <div id="description_home"></div>
@@ -80,6 +79,44 @@
                 </div>
             </div>
 
+            <!-- End of Main_3D Image -->
+            <!-- Carousel -->
+            <div id="productCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-interval="3000">
+                        <img id="carouimg1" src="#" class="d-block w-100 h-50" alt="Coca Cola">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Coke, Can't beat the Classic!</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="3000">
+                        <img id="carouimg2" src="#" class="d-block w-100" alt="Sprite">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Refereshing Sprite</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-interval="3000">
+                        <img id="carouimg3" src="#" class="d-block w-100" alt="Dr Pepper">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Dr Pepper - Unique Flavours</h5>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#productCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#productCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <!-- End of Carousel -->
             <!-- Row of cards on the grid -->
             <div class="row">
                 <div class="col-sm-4">
@@ -91,8 +128,8 @@
                             <div id="title_left" class="card-title drinksText"></div>
                             <div id="subTitle_left" class="card-subtitle drinksText"></div>
                             <div id="description_left" class="card-text drinksText"></div>
-                            <a id="navModels2" href="#" class="btn btn-outline-light btn-responsive">X3D Can Model</a>
-                            <a href="http://www.coca-cola.co.uk/drinks/coca-cola/coca-cola" class="btn btn-outline-light btn-responsive">Find out more ...</a>
+                            <a id="navModels2" href="#" class="btn btn-dark btn-responsive">X3D Can Model</a>
+                            <a href="http://www.coca-cola.co.uk/drinks/coca-cola/coca-cola" class="btn btn-dark btn-responsive">Find out more ...</a>
                         </div>
                     </div>
                 </div>
@@ -106,8 +143,8 @@
                             <div id="title_centre" class="card-title drinksText"></div>
                             <div id="subTitle_centre" class="card-subtitle drinksText"></div>
                             <div id="description_centre" class="card-text drinksText"></div>
-                            <a id="navModels3" href="#" class="btn btn-outline-light btn-responsive">X3D Bottle Model</a>
-                            <a href="http://www.coca-cola.co.uk/drinks/sprite/sprite" class="btn btn-outline-light btn-responsive">Find out more ...</a>
+                            <a id="navModels3" href="#" class="btn btn-dark btn-responsive">X3D Bottle Model</a>
+                            <a href="http://www.coca-cola.co.uk/drinks/sprite/sprite" class="btn btn-dark btn-responsive">Find out more ...</a>
                         </div>
                     </div>
                 </div>
@@ -121,8 +158,8 @@
                             <div id="title_right" class="card-title drinksText"></div>
                             <div id="subTitle_right" class="card-subtitle drinksText"></div>
                             <div id="description_right" class="card-text drinksText"></div>
-                            <a id="navModels4" href="#" class="btn btn-outline-light btn-responsive">X3D Cup Model</a>
-                            <a href="http://www.coca-cola.co.uk/drinks/dr-pepper/dr-pepper" class="btn btn-outline-light btn-responsive">Find out more ...</a>
+                            <a id="navModels4" href="#" class="btn btn-dark btn-responsive">X3D Cup Model</a>
+                            <a href="http://www.coca-cola.co.uk/drinks/dr-pepper/dr-pepper" class="btn btn-dark btn-responsive">Find out more ...</a>
                         </div>
                     </div>
                 </div>
@@ -146,6 +183,16 @@
                         <div class="card-body">
                             <div id="aboutUnderstandingHead" class="card-title drinksText"></div>
                             <div id="aboutUnderstandingText" class="card-text drinksText"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div id="aboutReferenceHead" class="card-title drinksText"></div>
+                            <div id="aboutReferenceText" class="card-text drinksText"></div>
                         </div>
                     </div>
                 </div>
@@ -178,7 +225,7 @@
                             <div id="coke">
                                 <div id="x3dModelTitle_coke" class="card-title drinksText"></div>
                                 <!-- Place the X3D code here -->
-                                <div class="model3D">
+                                <div id="model3D1" class="model3D">
                                     <x3d id="model">
                                         <scene>
                                             <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="assets/x3d/StudentCoke.x3d"> </inline>
@@ -191,7 +238,7 @@
                             <div id="sprite" style="display:none;">
                                 <div id="x3dModelTitle_sprite" class="card-title drinksText"></div>
                                 <!-- Place the X3D code here -->
-                                <div class="model3D">
+                                <div id="model3D2" class="model3D">
                                     <x3d id="model2">
                                         <scene>
                                             <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="assets/x3d/spritehp.x3d"> </inline>
@@ -204,7 +251,7 @@
                             <div id="pepper" style="display:none;">
                                 <div id="x3dModelTitle_pepper" class="card-title drinksText"></div>
                                 <!-- Place the X3D code here -->
-                                <div class="model3D">
+                                <div id="model3D3" class="model3D">
                                     <x3d id="model3">
                                         <scene>
                                             <inline nameSpaceName="model" mapDEFToID="true" onclick="animateModel();" url="assets/x3d/newcup.x3d"> </inline>
@@ -257,12 +304,12 @@
                             <div class="card-Title x3dCamera_Subtitle drinksText">
                                 <h3>Camera Views</h3>
                             </div>
-                            <a href="#" class="btn btn-outline-dark btn-responsive" onclick="cameraFront();">Default</a>
-                            <a href="#" class="btn btn-outline-light btn-responsive" onclick="cameraBack();">Back</a>
-                            <a href="#" class="btn btn-outline-light btn-responsive" onclick="cameraLeft();">Left</a>
-                            <a href="#" class="btn btn-outline-light btn-responsive" onclick="cameraRight();">Right</a>
-                            <a href="#" class="btn btn-outline-light btn-responsive" onclick="cameraTop();">Top</a>
-                            <a href="#" class="btn btn-outline-light btn-responsive" onclick="cameraBottom();">Bottom</a>
+                            <a href="#" class="btn btn-dark btn-responsive" onclick="cameraFront();">Default</a>
+                            <a href="#" class="btn btn-light btn-responsive" onclick="cameraBack();">Back</a>
+                            <a href="#" class="btn btn-light btn-responsive" onclick="cameraLeft();">Left</a>
+                            <a href="#" class="btn btn-light btn-responsive" onclick="cameraRight();">Right</a>
+                            <a href="#" class="btn btn-light btn-responsive" onclick="cameraTop();">Top</a>
+                            <a href="#" class="btn btn-light btn-responsive" onclick="cameraBottom();">Bottom</a>
 
                             <div class="card-text x3dCameraDescription drinksText">
                                 <p>These buttons select a range of X3D model viewpoints,<br>you can also use the dropdown menu</p>
@@ -271,10 +318,10 @@
                             <div class="card-Title x3dAnimationSubtitle drinksText">
                                 <h3>Animation Options</h3>
                             </div>
-                            <a href="#" class="btn btn-outline-light btn-responsive" onclick="spin(8);">Slow Spinning</a>
-                            <a href="#" class="btn btn-outline-light btn-responsive" onclick="spin(4);">Medium Spinning</a>
-                            <a href="#" class="btn btn-outline-light btn-responsive" onclick="spin(1);">Fast Spinning</a>
-                            <a href="#" class="btn btn-outline-dark btn-responsive" onclick="stopRotation();">Stop</a>
+                            <a href="#" class="btn btn-light btn-responsive" onclick="spin(8);">Slow Spinning</a>
+                            <a href="#" class="btn btn-light btn-responsive" onclick="spin(4);">Medium Spinning</a>
+                            <a href="#" class="btn btn-light btn-responsive" onclick="spin(1);">Fast Spinning</a>
+                            <a href="#" class="btn btn-dark btn-responsive" onclick="stopRotation();">Stop</a>
                             <div class="card-text x3dAnimationDescription drinksText">
                                 <p>These buttons to toggle 3D Animation on the model,<br>you can also use the dropdown menu</p>
                             </div>
@@ -282,12 +329,23 @@
                             <div class="card-Title x3dRendersubtitle drinksText">
                                 <h3>Render and Lighting Options</h3>
                             </div>
-                            <a href="#" class="btn btn-outline-light btn-responsive" onclick="poly();">Poly</a>
-                            <a href="#" class="btn btn-outline-light btn-responsive" onclick="wireframe();">Wire</a>
-                            <a href="#" class="btn btn-outline-light btn-responsive" onclick="vertex();">Vertex</a>
-                            <a href="#" class="btn btn btn-outline-dark btn-responsive" onclick="headlight();">Toggle Headlight</a>
+                            <a href="#" class="btn btn-light btn-responsive" onclick="poly();">Poly</a>
+                            <a href="#" class="btn btn-light btn-responsive" onclick="wireframe();">Wire</a>
+                            <a href="#" class="btn btn-light btn-responsive" onclick="vertex();">Vertex</a>
+                            <a href="#" class="btn btn-dark btn-responsive" onclick="headlight();">Toggle Headlight</a>
                             <div class="card-text x3dRenderDescription drinksText">
                                 <p>These buttons select render and lighting options,<br>you can also use the dropdown menus</p>
+                            </div>
+
+                            <div class="card-Title x3dRendersubtitle drinksText">
+                                <h3>Background Image Options</h3>
+                            </div>
+                            <a href="#" class="btn btn-light btn-responsive" onclick="change3Dbg(1);">Coke Theme</a>
+                            <a href="#" class="btn btn-light btn-responsive" onclick="change3Dbg(2);">Sprite Theme</a>
+                            <a href="#" class="btn btn-light btn-responsive" onclick="change3Dbg(3);">Dr Pepper Theme</a>
+                            <a href="#" class="btn btn-dark btn-responsive" onclick="change3Dbg(0);">None</a>
+                            <div class="card-text x3dRenderDescription drinksText">
+                                <p>These buttons select background image behind the model</p>
                             </div>
                         </div>
                     </div>
@@ -317,7 +375,7 @@
                         <div id="title_coke" class="card-title drinksText"></div>
                         <div id="subTitle_coke" class="card-subtitle drinksText"></div>
                         <div id="description_coke" class="card-text drinksText"></div>
-                        <a href="http://www.coca-cola.co.uk/drinks/coca-cola/coca-cola" class="btn btn-primary btn-responsive">Visit Coke</a>
+                        <a href="http://www.coca-cola.co.uk/drinks/coca-cola/coca-cola" class="btn btn-dark btn-responsive">Visit Coke</a>
                     </div>
                 </div>
             </div>
@@ -330,7 +388,7 @@
                         <div id="title_sprite" class="card-title drinksText"></div>
                         <div id="subTitle_sprite" class="card-subtitle drinksText"></div>
                         <div id="description_sprite" class="card-text drinksText"></div>
-                        <a href="http://www.coca-cola.co.uk/drinks/sprite/sprite" class="btn btn-primary btn-responsive">Visit Sprite</a>
+                        <a href="http://www.coca-cola.co.uk/drinks/sprite/sprite" class="btn btn-dark btn-responsive">Visit Sprite</a>
                     </div>
                 </div>
             </div>
@@ -343,7 +401,7 @@
                         <div id="title_pepper" class="card-title drinksText"></div>
                         <div id="subTitle_pepper" class="card-subtitle drinksText"></div>
                         <div id="description_pepper" class="card-text drinksText"></div>
-                        <a href="http://www.coca-cola.co.uk/drinks/dr-pepper/dr-pepper" class="btn btn-primary btn-responisve">Visit Pepper.</a>
+                        <a href="http://www.coca-cola.co.uk/drinks/dr-pepper/dr-pepper" class="btn btn-dark btn-responisve">Visit Pepper.</a>
                     </div>
                 </div>
             </div>
@@ -393,9 +451,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="modal fade" id="contactModal">
 
-                </div>
 
                 <!-- Optional JavaScript -->
                 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -414,7 +470,7 @@
 
                 <!-- JavaScript model interactions -->
                 <script src="scripts/js/modelInteractions.js"></script>
-
+                <!-- JavaScript JSON parser -->
                 <script src="scripts/js/getJsonData.js"></script>
 </body>
 </html>

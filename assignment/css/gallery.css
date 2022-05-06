@@ -1,9 +1,9 @@
 #gallery {
-    width:1600px;
+    width:100%;
 }
 
 #gallery_cell{
-    padding:0px;
+    padding:10px;
     background: ivory;
     border: 1px solid red;
     min-width: 200px;
@@ -13,6 +13,6 @@
 }
 
 .img-thumbnail {
-    max-width: 200px;
-    max-height: 180px;
+    max-width: 300px;
+    max-height: 300px;
 }

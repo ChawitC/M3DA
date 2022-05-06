@@ -27,6 +27,7 @@ function stopRotation() {
     document.getElementById('model__RotationTimer2').setAttribute('enabled', spinning.toString());
     document.getElementById('model__RotationTimer3').setAttribute('enabled', spinning.toString());
 }
+
 //simple counter logic that will allow manual switching between modes
 //Poly = 0
 //Wireframe = 1

@@ -6,12 +6,12 @@
     <NavigationInfo  DEF="headlight3" headlight="true" type='"EXAMINE"'/>
 
     <!-- CONTROLS CAMERAS -->
-    <Viewpoint DEF='CameraFront3' description='CameraFront3' orientation='0 0 -1 -0.007317' position='0 0 2200' fieldOfView='0.5'/>
-    <Viewpoint DEF='CameraRight3' description='CameraRight3' orientation='-3.304e-005 -1 -3.304e-005 -1.571' position='2200 0 0' fieldOfView='0.5'/>
-    <Viewpoint DEF='CameraLeft3' description='CameraLeft3' orientation='0 1 0 -1.571' position='-2200 0 0' fieldOfView='0.5'/>
-    <Viewpoint DEF='CameraBack3' description='CameraBack3' orientation='0 -1 0 -3.142' position='0 0 -2200' fieldOfView='0.5'/>
-    <Viewpoint DEF='CameraBottom3' description='CameraBottom3' orientation='0 -0.7071 0.7071 -3.142' position='0 -2200 -7.879e-005' fieldOfView='0.5'/>
-    <Viewpoint DEF='CameraTop3' description='CameraTop3' orientation='1 0 0 -1.571' position='0 2200 0.0001097' fieldOfView='0.5'/>
+    <Viewpoint DEF='CameraFront3' description='CameraFront3' orientation='0 0 -1 -0.007317' position='0 0 2200' fieldOfView='0.4'/>
+    <Viewpoint DEF='CameraRight3' description='CameraRight3' orientation='-3.304e-005 -1 -3.304e-005 -1.571' position='2200 0 0' fieldOfView='0.4'/>
+    <Viewpoint DEF='CameraLeft3' description='CameraLeft3' orientation='0 1 0 -1.571' position='-2200 0 0' fieldOfView='0.4'/>
+    <Viewpoint DEF='CameraBack3' description='CameraBack3' orientation='0 -1 0 -3.142' position='0 0 -2200' fieldOfView='0.4'/>
+    <Viewpoint DEF='CameraBottom3' description='CameraBottom3' orientation='0 -0.7071 0.7071 -3.142' position='0 -2200 -7.879e-005' fieldOfView='0.4'/>
+    <Viewpoint DEF='CameraTop3' description='CameraTop3' orientation='1 0 0 -1.571' position='0 2200 0.0001097' fieldOfView='0.4'/>
 
     <Transform DEF='Lathe_4'>
       <Transform rotation='0 1.57 0 1.57' translation='0 -250 0'>
