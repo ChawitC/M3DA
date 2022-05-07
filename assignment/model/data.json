@@ -42,8 +42,8 @@
       "description": "Dr Pepper's unique, sparkling blend of 23 fruit flavours has been around for well over a century and it's still the same, with that distinctive flavour you just can't quite put your tongue on. It was created by Texas pharmacist Charles Alderton in 1885. He gave a sample of the first ever batch to Wade Morrison, a local shop owner, and Mr Morrison instantly agreed to stock the drink. The distinctive, bold taste of Dr Pepper has been popular ever since."
     },
     {
-      "galleryTitle": "3D Images",
-      "galleryDescription": "3D images rendered in Maxon Cinema4D with Hardware Renderer,<br>Composited in Adobe Photoshop CC2017"
+      "galleryTitle": "Rendered 3D Images",
+      "galleryDescription": "3D images rendered in Maxon Cinema4D with Hardware Renderer,<br>Composited in Adobe Photoshop CC"
     },
     {
       "CameraTitle": "Camera Views",
@@ -70,8 +70,13 @@
       "siteImg3Addr": "assets/images/site_images/dr_pepper.jpg",
       "siteImgBannerAddr": "background-image: url('assets/images/site_images/main_new.jpg');",
       "siteCarou1Addr": "assets/images/site_images/carou_coke.png",
-      "siteCarou2Addr": "assets/images/site_images/carou_sprite.png", 
+      "siteCarou2Addr": "assets/images/site_images/carou_sprite.png",
       "siteCarou3Addr": "assets/images/site_images/carou_pepper.png"
+    },
+    {
+      "textCarou1": "Coca Cola : Original Taste",
+      "textCarou2": "Sprite : Chill Time is Not a Waste of Time",
+      "textCarou3": "Dr Pepper : So Odd, So Good, So Misunderstood"
     }
   ]
 }

@@ -107,12 +107,30 @@ so we need a height to see the background image */
     font-family: 'Oswald', sans-serif;
 }
 
+#caroutext1 h5 {
+    color: white;
+    font-size: 40px;
+    -webkit-text-stroke: 1px black;
+}
+
+#caroutext2 h5 {
+    color: black;
+    font-size: 40px;
+    -webkit-text-stroke: 1px white;
+}
+
+#caroutext3 h5 {
+    color: white;
+    font-size: 40px;
+    -webkit-text-stroke: 1px black;
+}
+
 .card {
     border: 5px solid rgba(0,0,0,.125);
     /* border-radius: .25rem;*/
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: #7c6d6d;
+    background-color: #cccccc;
 }
 
 /* CSS rule to style the mobile logo */
@@ -169,8 +187,6 @@ helps to stop your site looking like a Bootstrap clone!
 */
 .navbar_coca_cola {
     background-color: rgba(175,0,0,1); /* Set navbar background color */
-    /* border-color: yellow; Sets the navbar border color */
-    /* border-style: solid; */
     border-width: 0px;
     min-height: 70px;
 }
@@ -188,19 +204,11 @@ helps to stop your site looking like a Bootstrap clone!
 }
 
 /* NAVIGATION MENU*/
-/* CSS rules to overwrite the position of the Bootstrap menu. These are 
-derived from the
-Bootstrapbay Bootstrap Tutorial Part 11 — CSS Modifications to Navbar and 
-Buttons shows how to do this using Bootstrap 3, the principle should be the 
-same: https://www.youtube.com/watch?v=7v2yC3GyDHU   
-There is plenty more styling to do than indicated here, in mobile it still 
-defaults to Bootstrap CSS on dropdown!
-*/
 .navbar_coca_cola .navbar-nav > li > a {
     color: white;
+    font-size: 20px;
 }
-/* CSS rule to overwrite the bootstrap.css text hover color on the navbar
-*/
+/* CSS rule to overwrite the bootstrap.css text hover color on the navbar*/
 .navbar_coca_cola .navbar-nav > li > a:hover,
 .navbar_coca_cola .navbar-nav > li > a:focus {
    color: black;
@@ -210,8 +218,7 @@ defaults to Bootstrap CSS on dropdown!
    margin-top: 0px;
 }
 /* CSS rule to overwrite the bootstrap.css rules for setting the active 
-font color and background colour
-*/
+font color and background colour*/
 .navbar_coca_cola .navbar-nav .nav-item > .active,
 .navbar_coca_cola .navbar-nav > .active > a:hover,
 .navbar_coca_cola .navbar-nav > .active > a:focus {
@@ -219,11 +226,9 @@ font color and background colour
    background-color: white; /* Blue color for background */
 }
 /* A set of CSS rules to change the Bootstrap defaults for the menu link 
-text color, hover, background, focus
-*/
+text color, hover, background, focus*/
 
-/* CSS rule to overwrite the bootstrap.css text hover color on the navbar
-*/
+/* CSS rule to overwrite the bootstrap.css text hover color on the navbar*/
 .navbar_coca_cola .navbar-nav > li > a:hover,
 .navbar_coca_cola .navbar-nav > li > a:focus {
     color: black;
@@ -238,8 +243,7 @@ text color, hover, background, focus
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-/* Let's style the dropdown menu
-*/
+/* Let's style the dropdown menu*/
 .dropdown-menu {
     text-align: left;
     background-color: lightgray;
@@ -271,7 +275,7 @@ text color, hover, background, focus
 }
 
 .navbar-text > p {
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 1);
     font-size: 14px;
     text-decoration: none;
 }
@@ -281,39 +285,9 @@ text color, hover, background, focus
 }
 
 .social {
-    padding-top: 0px;
+    padding-top: 2px;
 }
 
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
-    /* CSS rule to style the footer */
-    .footer {
-        /*background-color: rgba(175,0,0,1);*/
-        height: 60px;
-    }
-
-    .navbar-text > a {
-        font-size: 10px;
-    }
-
-    .navbar-text > p {
-        color: rgba(255,255,255,0.8);
-        font-size: 22px;
-    }
-
-    .copyright {
-        padding-top: 20px;
-    }
-
-    .social {
-        padding-top: 7px;
-    }
-}
-
-.social {
-    padding-top: 0px;
-    width: 30%;
-}
 
 .fa-twitter-square:before {
     content: "\f081";
@@ -429,4 +403,30 @@ X3D, x3d {
 .carousel-inner > .carousel-item > img {
     height: 50%;
     margin: auto;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    /* CSS rule to style the footer */
+    .footer {
+        /*background-color: rgba(175,0,0,1);*/
+        height: 60px;
+    }
+
+    .navbar-text > a {
+        font-size: 10px;
+    }
+
+    .navbar-text > p {
+        color: rgba(255,255,255,1);
+        font-size: 22px;
+    }
+
+    .copyright {
+        padding-top: 20px;
+    }
+
+    .social {
+        padding-top: 5px;
+    }
 }

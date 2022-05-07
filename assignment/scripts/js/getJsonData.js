@@ -74,5 +74,10 @@ $(document).ready(function (){
         document.getElementById("carouimg1").setAttribute("src", jsonObj.pageTextData[11].siteCarou1Addr);
         document.getElementById("carouimg2").setAttribute("src", jsonObj.pageTextData[11].siteCarou2Addr);
         document.getElementById("carouimg3").setAttribute("src", jsonObj.pageTextData[11].siteCarou3Addr);
+
+        //Get Carousel Description Text
+        $('#caroutext1').html('<h5>' + jsonObj.pageTextData[12].textCarou1 + '</h5>');
+        $('#caroutext2').html('<h5>' + jsonObj.pageTextData[12].textCarou2 + '</h5>');
+        $('#caroutext3').html('<h5>' + jsonObj.pageTextData[12].textCarou3 + '</h5>');
     });
 });

@@ -135,9 +135,9 @@ function changeLook() {
             break;
 
         case 3:
-            document.getElementById('body').style.backgroundColor = 'grey';
-            document.getElementById('header').style.backgroundColor = 'black';
-            document.getElementById('footer').style.backgroundColor = 'black';
+            document.getElementById('body').style.backgroundColor = 'lightgrey';
+            document.getElementById('header').style.backgroundColor = 'darkgrey';
+            document.getElementById('footer').style.backgroundColor = 'darkgrey';
             counter = 0;
             break;
 
