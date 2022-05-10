@@ -4,6 +4,8 @@ Repository of 920G5: Mobile 3D Application by Chawit C.; cc841
 This is the respository of Web application, done as a Module assignment
 part of 920G5 Mobile 3D Applications (Spring Semester 21/22)
 
+These codes and assets are submitted as part requirements for the degree of Computing with Digital Media MSc at the University of Sussex. They are the product of my own labour except where indicated in the web page content. These web pages or contents may be freely copied and distributed provided the source is acknowledged.
+
 By Chawit Chiwarattanaphan
 
 Candidate number: 244152
@@ -32,6 +34,7 @@ Largely adapted from the module’s example (coke.x3d) code by Professor Martin 
 + (3) HTML/CSS References
 + (3.1) Bootstrap Buttons https://getbootstrap.com/docs/4.0/components/buttons/
 + (3.2) Bootstrap Carousel https://getbootstrap.com/docs/4.0/components/carousel/
++ (3.3) CSS Media Queries https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 
 + (4) Javascript References
 + (4.1) getElementbyId() https://www.w3schools.com/jsref/met_document_getelementbyid.asp
