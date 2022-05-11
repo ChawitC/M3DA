@@ -1,4 +1,16 @@
-﻿<!DOCTYPE html>
+﻿<!--
+These web pages are submitted as part requirements for the degree of Computing with Digital Media MSc at the University of Sussex.
+They are the product of my own labour except where indicated in the web page content.
+These web pages or contents may be freely copied and distributed provided the source is acknowledged.
+
+These Web application is done as a Module assignment
+part of 920G5 Mobile 3D Applications (Spring Semester 21/22)
+
+By Chawit Chiwarattanaphan
+Candidate number: 244152
+Email: cc841@sussex.ac.uk
+-->
+<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -9,7 +21,6 @@
 
     <link rel='stylesheet' type='text/css' href='css/x3dom.css' />
     <!--<link rel="stylesheet" href="http://www.x3dom.org/x3dom/release/x3dom.css">-->
-
     <!-- Use a light box to view images in the gallery -->
     <link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css">
 
@@ -51,7 +62,7 @@
                     <a id="navModels" class="nav-link" href="#" data-toggle="popover" data-trigger="hover" data-placement="bottom" title="X3D Models" data-content="There are three X3D models: Coke, Sprite and Pepper">Models</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/ChawitC/M3DA">GitHub</a>
+                    <a class="nav-link" target = "_blank" href="https://github.com/ChawitC/M3DA">GitHub</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#" data-toggle="modal" data-target="#contactModal">Contact</a>
@@ -126,7 +137,7 @@
                             <div id="subTitle_left" class="card-subtitle drinksText"></div>
                             <div id="description_left" class="card-text drinksText"></div>
                             <a id="navModels2" href="#" class="btn btn-dark btn-responsive">X3D Can Model</a>
-                            <a href="http://www.coca-cola.co.uk/drinks/coca-cola/coca-cola" class="btn btn-dark btn-responsive">Find out more ...</a>
+                            <a target = "_blank" href="http://www.coca-cola.co.uk/drinks/coca-cola/coca-cola" class="btn btn-dark btn-responsive">Find out more ...</a>
                         </div>
                     </div>
                 </div>
@@ -141,7 +152,7 @@
                             <div id="subTitle_centre" class="card-subtitle drinksText"></div>
                             <div id="description_centre" class="card-text drinksText"></div>
                             <a id="navModels3" href="#" class="btn btn-dark btn-responsive">X3D Bottle Model</a>
-                            <a href="http://www.coca-cola.co.uk/drinks/sprite/sprite" class="btn btn-dark btn-responsive">Find out more ...</a>
+                            <a target = "_blank" href="http://www.coca-cola.co.uk/drinks/sprite/sprite" class="btn btn-dark btn-responsive">Find out more ...</a>
                         </div>
                     </div>
                 </div>
@@ -156,7 +167,7 @@
                             <div id="subTitle_right" class="card-subtitle drinksText"></div>
                             <div id="description_right" class="card-text drinksText"></div>
                             <a id="navModels4" href="#" class="btn btn-dark btn-responsive">X3D Cup Model</a>
-                            <a href="http://www.coca-cola.co.uk/drinks/dr-pepper/dr-pepper" class="btn btn-dark btn-responsive">Find out more ...</a>
+                            <a target = "_blank" href="http://www.coca-cola.co.uk/drinks/dr-pepper/dr-pepper" class="btn btn-dark btn-responsive">Find out more ...</a>
                         </div>
                     </div>
                 </div>
@@ -202,7 +213,6 @@
             </div>
         </div>
         <!-- End About page block element -->
-
         <!-- Start X3D models and 3D Interaction Panels -->
         <div id="models">
             <!-- Row to hold two cards to hold 1) the X3D model, and 2) the gallery-->
@@ -354,8 +364,7 @@
                     </div>
                 </div> <!-- End column for interaction panels -->
             </div> <!-- End the row for X3D Model and interaction panels -->
-        </div> <!-- End of div id = models -->   
-            
+        </div> <!-- End of div id = models -->
         <!-- 3D image gallery -->
         <div id="galleryrow" class="row">
             <div class="col-sm-12">
@@ -369,7 +378,6 @@
                 </div> <!-- End gallery card -->
             </div> <!-- End gallery column -->
         </div> <!-- End gallery row -->
-
         <!-- Row to hold one card to hold the coke descriptive text, etc.-->
         <div id="cokeDescription" class="row">
             <div class="col-sm-12">
@@ -378,7 +386,7 @@
                         <div id="title_coke" class="card-title drinksText"></div>
                         <div id="subTitle_coke" class="card-subtitle drinksText"></div>
                         <div id="description_coke" class="card-text drinksText"></div>
-                        <a href="http://www.coca-cola.co.uk/drinks/coca-cola/coca-cola" class="btn btn-dark btn-responsive">Visit Coke</a>
+                        <a href="http://www.coca-cola.co.uk/drinks/coca-cola/coca-cola" target = "_blank" class="btn btn-dark btn-responsive">Visit Coke</a>
                     </div>
                 </div>
             </div>
@@ -391,7 +399,7 @@
                         <div id="title_sprite" class="card-title drinksText"></div>
                         <div id="subTitle_sprite" class="card-subtitle drinksText"></div>
                         <div id="description_sprite" class="card-text drinksText"></div>
-                        <a href="http://www.coca-cola.co.uk/drinks/sprite/sprite" class="btn btn-dark btn-responsive">Visit Sprite</a>
+                        <a href="http://www.coca-cola.co.uk/drinks/sprite/sprite" target = "_blank" class="btn btn-dark btn-responsive">Visit Sprite</a>
                     </div>
                 </div>
             </div>
@@ -404,14 +412,13 @@
                         <div id="title_pepper" class="card-title drinksText"></div>
                         <div id="subTitle_pepper" class="card-subtitle drinksText"></div>
                         <div id="description_pepper" class="card-text drinksText"></div>
-                        <a href="http://www.coca-cola.co.uk/drinks/dr-pepper/dr-pepper" class="btn btn-dark btn-responisve">Visit Pepper.</a>
+                        <a href="http://www.coca-cola.co.uk/drinks/dr-pepper/dr-pepper" target = "_blank" class="btn btn-dark btn-responisve">Visit Dr Pepper</a>
                     </div>
                 </div>
             </div>
         </div> <!-- End pepper description contents -->
-    </div>  
+    </div>
     <!-- End 3D App SPA Contents -->
-
     <!--Your 3D App footer-->
     <nav class="navbar navbar-expand-sm footer" id="footer">
         <div class="container">
@@ -421,58 +428,58 @@
                 </p>
             </div>
             <div class="navbar-text social">
-                <a id="modelpagelink" href="https://github.com/ChawitC/M3DA/tree/main/3D%20models" class="btn btn-light btn-responsive">3D Models</a>
-                <a href="https://github.com/ChawitC/M3DA"><i class="fab fa-github-square fa-2x fa-pull-right"></i></a>
-                <a href="https://twitter.com/CocaCola"><i class="fab fa-twitter-square fa-2x fa-pull-right"></i></a>
-                <a href="https://en-gb.facebook.com/Coca-Cola/"><i class="fab fa-facebook-square fa-2x fa-pull-right"></i></a>
+                <a id="modelpagelink" target = "_blank" href="https://github.com/ChawitC/M3DA/tree/main/3D%20models" class="btn btn-light btn-responsive">3D Models</a>
+                <a target = "_blank" href="https://github.com/ChawitC/M3DA"><i class="fab fa-github-square fa-2x fa-pull-right"></i></a>
+                <a target = "_blank" href="https://twitter.com/CocaCola"><i class="fab fa-twitter-square fa-2x fa-pull-right"></i></a>
+                <a target = "_blank" href="https://en-gb.facebook.com/Coca-Cola/"><i class="fab fa-facebook-square fa-2x fa-pull-right"></i></a>
             </div>
         </div>
     </nav>
 
     <!--My 3D App modals-->
-                <!--Contact modal-->
-                <!--The Modal-->
-                <div class="modal fade" id="contactModal">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
+    <!--Contact modal-->
+    <!--The Modal-->
+    <div class="modal fade" id="contactModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
 
-                            <!-- Modal Header -->
-                            <div class="modal-header">
-                                <h4 class="modal-title">3D App Contact Details</h4>
-                                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            </div>
-
-                            <!-- Modal body -->
-                            <div class="modal-body">
-                                <p>Chawit Chiwarattanaphan, Email: cc841@sussex.ac.uk</p>
-                            </div>
-
-                            <!-- Modal footer -->
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-                            </div>
-
-                        </div>
-                    </div>
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">3D App Contact Details</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
-     <!-- Optional JavaScript -->
-     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-     <script src="scripts/js/jquery-3.6.0.js"></script>
-     <script src="scripts/js/popper.min.js"></script>
-     <script src="scripts/js/bootstrap.js"></script>
-     <script src="scripts/js/swapper.js"></script>
-     <script src="https://kit.fontawesome.com/ceb742868d.js" crossorigin="anonymous"></script>
-     <script type='text/javascript' src='scripts/js/x3dom.js'></script>
 
-     <!-- JavaScript and PHP based Gallery generator  -->
-     <script src="scripts/js/gallery_generator.js"></script>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    <p>Chawit Chiwarattanaphan, Email: cc841@sussex.ac.uk</p>
+                </div>
 
-     <!--fancyBox3 => http://fancyapps.com/fancybox/3/ -->
-     <script src="scripts/js/jquery.fancybox.min.js"></script>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
 
-     <!-- JavaScript model interactions -->
-     <script src="scripts/js/modelInteractions.js"></script>
-     <!-- JavaScript JSON parser -->
-     <script src="scripts/js/getJsonData.js"></script>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="scripts/js/jquery-3.6.0.js"></script>
+    <script src="scripts/js/popper.min.js"></script>
+    <script src="scripts/js/bootstrap.js"></script>
+    <script src="scripts/js/swapper.js"></script>
+    <script src="https://kit.fontawesome.com/ceb742868d.js" crossorigin="anonymous"></script>
+    <script type='text/javascript' src='scripts/js/x3dom.js'></script>
+
+    <!-- JavaScript and PHP based Gallery generator  -->
+    <script src="scripts/js/gallery_generator.js"></script>
+
+    <!--fancyBox3 => http://fancyapps.com/fancybox/3/ -->
+    <script src="scripts/js/jquery.fancybox.min.js"></script>
+
+    <!-- JavaScript model interactions -->
+    <script src="scripts/js/modelInteractions.js"></script>
+    <!-- JavaScript JSON parser -->
+    <script src="scripts/js/getJsonData.js"></script>
 </body>
 </html>

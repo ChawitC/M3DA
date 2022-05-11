@@ -51,18 +51,18 @@ $(document).ready(function (){
         $('.x3dCameraTitle').html('<h2>' + jsonObj.pageTextData[8].CameraTitle + '<h2>');
         $('.x3dCameraSubtitle').html('<p>' + jsonObj.pageTextData[8].CameraSubtitle + '</p>');
 
-        //Get "About" page text
+        //Get "About" page text and parse link addresses to Buttons
         $('#aboutPageHead').html('<h1>' + jsonObj.pageTextData[9].AboutHead + '</h1>');
         $('#aboutPageText').html('<p>' + jsonObj.pageTextData[9].AboutText + '</p>');
         $('#aboutUnderstandingHead').html('<h1>' + jsonObj.pageTextData[9].AboutUnderstandHead + '</h1>');
         $('#aboutUnderstandingText').html('<p>' + jsonObj.pageTextData[9].AboutUnderstandText + '</p>');
         $('#aboutReferenceHead').html('<h1>' + jsonObj.pageTextData[9].AboutRefHead + '</h1>');
-        $('#aboutReferenceText1').html('<p>' + jsonObj.pageTextData[9].AboutRefText1 + '<a href="https://www.youtube.com/watch?v=U4SVY75bJN8&ab_channel=AbuwaqarIkhwan" class="btn btn-dark btn-responsive">Via this YouTube video</a></p>');
-        $('#aboutReferenceText2').html('<p>' + jsonObj.pageTextData[9].AboutRefText2 + '<a href="https://getbootstrap.com/docs/4.0/components/buttons/" class="btn btn-dark btn-responsive">Via this Page</a><br></p>');
-        $('#aboutReferenceText3').html('<p>' + jsonObj.pageTextData[9].AboutRefText3 + '<a href="https://getbootstrap.com/docs/4.0/components/carousel/" class="btn btn-dark btn-responsive">Via this Page</a><br></p>');
-        $('#aboutReferenceText4').html('<p>' + jsonObj.pageTextData[9].AboutRefText4 + '<a href="https://www.w3schools.com/css/css3_mediaqueries_ex.asp" class="btn btn-dark btn-responsive">Via this Page</a><br><br></p>');
-        $('#aboutReferenceText5').html('<p>' + jsonObj.pageTextData[9].AboutRefText5 + '<a href="https://www.w3schools.com/jsref/met_document_getelementbyid.asp" class="btn btn-dark btn-responsive">Via this Page</a><br></p>');
-        $('#aboutReferenceText6').html('<p>' + jsonObj.pageTextData[9].AboutRefText6 + '<a href="https://www.w3schools.com/jsref/met_document_getelementsbyclassname.asp" class="btn btn-dark btn-responsive">Via this Page</a><br></p>');
+        $('#aboutReferenceText1').html('<p>' + jsonObj.pageTextData[9].AboutRefText1 + '<a href="https://www.youtube.com/watch?v=U4SVY75bJN8&ab_channel=AbuwaqarIkhwan" target = "_blank" class="btn btn-dark btn-responsive">Via this YouTube video</a></p>');
+        $('#aboutReferenceText2').html('<p>' + jsonObj.pageTextData[9].AboutRefText2 + '<a href="https://getbootstrap.com/docs/4.0/components/buttons/" target = "_blank" class="btn btn-dark btn-responsive">Via this Page</a><br></p>');
+        $('#aboutReferenceText3').html('<p>' + jsonObj.pageTextData[9].AboutRefText3 + '<a href="https://getbootstrap.com/docs/4.0/components/carousel/" target = "_blank" class="btn btn-dark btn-responsive">Via this Page</a><br></p>');
+        $('#aboutReferenceText4').html('<p>' + jsonObj.pageTextData[9].AboutRefText4 + '<a href="https://www.w3schools.com/css/css3_mediaqueries_ex.asp" target = "_blank" class="btn btn-dark btn-responsive">Via this Page</a><br><br></p>');
+        $('#aboutReferenceText5').html('<p>' + jsonObj.pageTextData[9].AboutRefText5 + '<a href="https://www.w3schools.com/jsref/met_document_getelementbyid.asp" target = "_blank" class="btn btn-dark btn-responsive">Via this Page</a><br></p>');
+        $('#aboutReferenceText6').html('<p>' + jsonObj.pageTextData[9].AboutRefText6 + '<a href="https://www.w3schools.com/jsref/met_document_getelementsbyclassname.asp" target = "_blank" class="btn btn-dark btn-responsive">Via this Page</a><br></p>');
         
         //Get Render images addresses (commented out lines are unused addresses, since the rest of the image is fetched by gallery_generator.js)
         document.getElementById("cokeRAddr1").setAttribute("href",jsonObj.pageTextData[10].cokeRender1Addr);

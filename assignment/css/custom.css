@@ -113,15 +113,15 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
 }
 
-#title_left h2 {
+#title_left h2, #title_coke h2, #x3dModelTitle_coke h2 {
     color: #c70015;
 }
 
-#title_centre h2 {
+#title_centre h2, #title_sprite h2, #x3dModelTitle_sprite h2 {
     color: #00529b;
 }
 
-#title_right h2 {
+#title_right h2, #title_pepper h2, #x3dModelTitle_pepper h2 {
     color: #7c0024;
 }
 
@@ -342,6 +342,8 @@ h1, h2, h3, h4, h5, h6 {
 .model3D {
     background-color: rgba(255, 255, 255, 0.2);
     background-image: url(./../assets/images/site_images/blur_coke.png); /*Default background, changeable with buttons*/
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 1.0);
     padding: 2px;
