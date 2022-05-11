@@ -13,10 +13,7 @@
     src: url(../assets/fonts/oswald/Oswald-Regular.ttf);
 }
 
-
-/* Default device queries (...px and up)*/
-/* Some simple CSS rules for styling p, h1 to h6, etc. in the main 
-content’s container */
+/* Some simple CSS rules for styling p, h1 to h6, etc. in the main content’s container */
 body {
     background-color: rgba(255,255,255,0.8);
 }
@@ -35,12 +32,11 @@ h1, h2, h3, h4, h5, h6 {
     /*font-family: cocaColaFont;*/
 }
 
+/* Default device queries (Targeting X-Large and up) (1200px and up)*/
 #main_3d_image {
-    /*background-image: url(../assets/images/site_images/main_new.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
-    /* The div block for the main_3d_image has no vertical size, 
-so we need a height to see the background image */
+    /* The div block for the main_3d_image has no vertical size, so we need a height to see the background image */
     height: 200px;
 }
 #main_text {
@@ -55,20 +51,20 @@ so we need a height to see the background image */
 
 #main_text h2 {
     color: darkred;
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 0px;
     margin-bottom: 5px;
+    font-weight: bold;
 }
 
 #main_text h3 {
-        font-size: 20px;
-        margin-top: 5px;
-        margin-bottom: 5px;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #main_text p {
-     font-size: 15px;
-     margin: 0px;
+     font-size: 18px;
      line-height: 1.2;
 }
 
@@ -79,15 +75,12 @@ so we need a height to see the background image */
    font-family: 'Oswald', sans-serif;
 }
 
-
-
 #aboutPageText p, #aboutUnderstandingText p, #aboutReferenceText1 p, #aboutReferenceText2 p, #aboutReferenceText3 p, #aboutReferenceText4 p, #aboutReferenceText5 p, #aboutReferenceText6 p {
     font-size: 20px;
     margin: 0px;
     line-height: 1.3;
     font-family: OpenSans, sans-serif;
 }
-
 
 #caroutext1 h5, #caroutext3 h5 {
     color: white;
@@ -107,6 +100,29 @@ so we need a height to see the background image */
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: #cccccc;
+    font-size: 17px; /* affects P */
+}
+
+.card-title h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.card-Title h3, .card-subtitle h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#title_left h2 {
+    color: #c70015;
+}
+
+#title_centre h2 {
+    color: #00529b;
+}
+
+#title_right h2 {
+    color: #7c0024;
 }
 
 /* CSS rule to style the mobile logo */
@@ -115,8 +131,7 @@ so we need a height to see the background image */
 }
 
 .logo h1 {
-        font-family: cocaColaFont; /* You don't need to repeat this for each 
-media query as it is propagated */
+        font-family: cocaColaFont; /* You don't need to repeat this for each media query as it is propagated */
         font-size: 50px;
         margin: 0;
         margin-top: -15px;
@@ -148,33 +163,25 @@ media query as it is propagated */
 }
 
 .logo p {
-        font-size: 15px; /* You may have to tweak this to get a good fit */
-        margin-top: 40px; /* You may have to tweak this to get a good fit */
+        font-size: 15px; 
+        margin-top: 40px; 
         margin-bottom: 0px;
         padding-top: 0px;
         padding-left: 10px;
 }
 
-/* New CSS rules to better position the navbar and increase its height, 
-Bootstrap defaults tend to make your site look like a Bootstrap clone! 
-*/
-/* CSS rule to overwrite the navbar background and border color — again, 
-helps to stop your site looking like a Bootstrap clone! 
-*/
 .navbar_coca_cola {
-    background-color: rgba(175,0,0,1); /* Set navbar background color */
+    background-color: rgba(175,0,0,1); 
     border-width: 0px;
     min-height: 70px;
 }
 
 /*CSS rule to overwrite the navbar-brand font color*/
-
 .navbar_coca_cola .navbar-brand {
     color: rgba(255,255,255,1);
 }
 
 /* CSS rule to overwrite the navbar-brand font hover color */
-
 .navbar_coca_cola .navbar-brand:hover {
     color: black;
 }
@@ -193,16 +200,14 @@ helps to stop your site looking like a Bootstrap clone!
 .navbar_coca_cola .navbar-nav .nav-item {
    margin-top: 0px;
 }
-/* CSS rule to overwrite the bootstrap.css rules for setting the active 
-font color and background colour*/
+/* CSS rule to overwrite the bootstrap.css rules for setting the active font color and background colour*/
 .navbar_coca_cola .navbar-nav .nav-item > .active,
 .navbar_coca_cola .navbar-nav > .active > a:hover,
 .navbar_coca_cola .navbar-nav > .active > a:focus {
    color: black; /* Font color for active font */
    background-color: white; /* Blue color for background */
 }
-/* A set of CSS rules to change the Bootstrap defaults for the menu link 
-text color, hover, background, focus*/
+/* A set of CSS rules to change the Bootstrap defaults for the menu link text color, hover, background, focus*/
 
 /* CSS rule to overwrite the bootstrap.css text hover color on the navbar*/
 .navbar_coca_cola .navbar-nav > li > a:hover,
@@ -243,7 +248,7 @@ text color, hover, background, focus*/
 .footer {
     color: rgba(175,0,0,1);
     background-color: rgba(175,0,0,1); /* Set navbar footer background color same as header */
-    height: 50px;
+    height: 60px;
 }
 
 .navbar-text > a {
@@ -252,18 +257,23 @@ text color, hover, background, focus*/
 
 .navbar-text > p {
     color: rgba(255, 255, 255, 1);
-    font-size: 14px;
+    font-size: 22px;
+    padding-top: 10px;
     text-decoration: none;
 }
 
 .copyright {
-    padding-top: 8px;
+    padding-top: 10px;
 }
 
 .social {
-    padding-top: 2px;
+    padding-top: 5px;
 }
 
+#modelpagelink {
+    margin-top: 1px;
+    font-size: 20px;
+}
 
 .fa-twitter-square:before {
     content: "\f081";
@@ -273,12 +283,6 @@ text color, hover, background, focus*/
 
 .fa-github-square:before {
     content: "\f092";
-    color: white;
-    font-size: 2em;
-}
-
-.fa-google-plus-square:before {
-    content: "\f0d4";
     color: white;
     font-size: 2em;
 }
@@ -299,8 +303,7 @@ text color, hover, background, focus*/
     height: auto;
 }
 
-/* Lifted form the bootsrap.css file, and modified to emulate the nav-bar 
-menu styling */
+/* Lifted form the bootsrap.css file, and modified to emulate the nav-bar menu styling */
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
     color: darkslategray; /* Font color for active font */
     background-color: white; /* Blue color for background */
@@ -311,37 +314,13 @@ menu styling */
     border: 1px solid transparent;
     border-top-left-radius: 0.25rem;
     border-top-right-radius: 0.25rem;
+    font-size: 20px;
+    font-weight: bold;
 }
     /* Added this to emulate the nav-bar link styling */
     .nav-tabs .nav-link:hover {
         color: black;
         border: 1px solid transparent;
-    }
-
-.camera-btns {
-    /* background-color: rgba(0, 0, 255, 0.3);  */
-    border-color: black;
-    border-style: solid;
-    border-width: 0px;
-    margin-top: 0px;
-    padding: 0px;
-}
-
-    .camera-btns > p {
-        font-size: 15px;
-        color: red;
-        padding-left: 0px;
-        font-weight: 900;
-    }
-
-.camera-font {
-    font-weight: 400;
-    color: white;
-}
-
-    .camera-font:hover {
-        font-weight: 700;
-        color: rgb(3, 3, 3);
     }
 
 .btn-responsive {
@@ -355,18 +334,18 @@ menu styling */
     color: white;
 }
 
-    .gallery-header:hover {
-        color: green;
-        border: 1px solid transparent;
-    }
+.gallery-header:hover {
+    color: green;
+    border: 1px solid transparent;
+}
 
 .model3D {
     background-color: rgba(255, 255, 255, 0.2);
-    background-image: url(./../assets/images/site_images/blur_coke.png);
+    background-image: url(./../assets/images/site_images/blur_coke.png); /*Default background, changeable with buttons*/
     border-radius: 5px;
     border: 1px solid rgba(0, 0, 0, 1.0);
     padding: 2px;
-    height: 400px;
+    height: 420px;
 }
 
 X3D, x3d {
@@ -381,11 +360,133 @@ X3D, x3d {
     margin: auto;
 }
 
-/* Small devices (landscape phones, 576px and down)*/
-@media (min-width: 576px) {
+/* Large devices (desktops, 992px-1199px) */
+@media (max-width: 1199px) {
+    #main_3d_image {
+        /* The div block for the main_3d_image has no vertical size, so we need a height to see the background image */
+        height: 180px;
+    }
+
+    #main_text h2 {
+        font-size: 30px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+
+    #main_text h3 {
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+     }
+
+     #main_text p {
+         font-size: 15px;
+         margin: 0px;
+         line-height: 1.2;
+     }
+
+    #aboutPageHead h1, #aboutUnderstandingHead h1, #aboutReferenceHead h1 {
+        font-size: 25px;
+        margin: 0px;
+        line-height: 1.3;
+        padding-bottom: 10px;
+    }
+
+    #aboutPageText p, #aboutUnderstandingText p, #aboutReferenceText1 p, #aboutReferenceText2 p, #aboutReferenceText3 p, #aboutReferenceText4 p, #aboutReferenceText5 p, #aboutReferenceText6 p {
+        font-size: 18px;
+        margin: 0px;
+        line-height: 1.3;
+    }
+
+    #caroutext1 h5, #caroutext3 h5 {
+        color: white;
+        font-size: 35px;
+        -webkit-text-stroke: 1px black;
+    }
+
+    #caroutext2 h5 {
+        color: black;
+        font-size: 35px;
+        -webkit-text-stroke: 1px white;
+    }
+
+    .card {
+        font-size: 15px; /* affects P */
+    }
+
+    /* CSS rule to style the mobile logo */
+    .logo {
+        margin-top: 3px;
+    }
+
+        .logo h1 {
+            font-size: 50px;
+            margin: 0;
+            margin-top: -15px;
+            margin-bottom: -15px;
+            float: left;
+            padding-top: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .logo h2 {
+            font-family: cocaColaFont;
+            font-size: 50px;
+            margin-top: -6px;
+            margin-bottom: -15px;
+            padding-top: 0px;
+            padding-left: -10px;
+            padding-right: 2px;
+            float: left;
+        }
+
+        .logo h3 {
+            font-size: 25px;
+            margin-top: 0px;
+            margin-bottom: -5px;
+            padding-top: -3px;
+            padding-left: 5px;
+            float: left;
+        }
+
+        .logo p {
+            font-size: 15px;
+            margin-top: 40px; 
+            margin-bottom: 0px;
+            padding-top: 0px;
+            padding-left: 10px;
+        }
+
+    /* New CSS rules to better position the navbar and increase its height, Bootstrap defaults tend to make your site look like a Bootstrap clone! */
+    /* CSS rule to overwrite the navbar background and border color — again, helps to stop your site looking like a Bootstrap clone! */
+    .navbar_coca_cola {
+        background-color: rgba(175,0,0,1); /* Set navbar background color */
+        border-width: 0px;
+        min-height: 70px;
+    }
+
+        /* NAVIGATION MENU*/
+        .navbar_coca_cola .navbar-nav > li > a {
+            color: white;
+            font-size: 18px;
+        }
+
+        .navbar_coca_cola .navbar-nav .nav-item {
+            margin-top: 0px;
+        }
+
+    /* Let's style the dropdown menu*/
+    .dropdown-menu {
+        text-align: left;
+        background-color: lightgray;
+        margin-top: 20px;
+    }
+
     /* CSS rule to style the footer */
     .footer {
-        /*background-color: rgba(175,0,0,1);*/
+        color: rgba(175,0,0,1);
+        background-color: rgba(175,0,0,1); /* Set navbar footer background color same as header */
         height: 60px;
     }
 
@@ -394,15 +495,526 @@ X3D, x3d {
     }
 
     .navbar-text > p {
-        color: rgba(255,255,255,1);
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .copyright {
-        padding-top: 20px;
+        padding-top: 10px;
     }
 
     .social {
         padding-top: 5px;
     }
+
+    #modelpagelink {
+        margin-top: 1px;
+        font-size: 18px;
+    }
+
+    .fa-twitter-square:before {
+        content: "\f081";
+        color: white;
+        font-size: 1.8em;
+    }
+
+    .fa-github-square:before {
+        content: "\f092";
+        color: white;
+        font-size: 1.8em;
+    }
+
+    .fa-facebook-square:before {
+        content: "\f082";
+        color: white;
+        font-size: 1.8em;
+    }
+
+    .img-thumbnail {
+        padding: .25rem;
+        margin-top: 5px;
+        background-color: #fff;
+        border: 1px solid #dee2e6;
+        border-radius: 0.25rem;
+        max-width: 200%;
+        height: auto;
+    }
+    .btn-responsive {
+        padding: 5px 8px;
+        font-size: 90%;
+        line-height: 1.2;
+        white-space: normal !important;
+    }
+
+    .model3D {
+        height: 600px;
+    }
 }
+
+/* Medium devices (tablets, 768px-991px) */
+@media (max-width: 991px) {
+    #main_3d_image {
+        /* The div block for the main_3d_image has no vertical size, so we need a height to see the background image */
+        height: 160px;
+    }
+
+    #main_text h2 {
+        font-size: 25px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+
+    #main_text h3 {
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #main_text p {
+        font-size: 15px;
+        margin: 0px;
+        line-height: 1.2;
+    }
+
+    #aboutPageHead h1, #aboutUnderstandingHead h1, #aboutReferenceHead h1 {
+        font-size: 25px;
+        margin: 0px;
+        line-height: 1.3;
+        padding-bottom: 10px;
+    }
+
+    #aboutPageText p, #aboutUnderstandingText p, #aboutReferenceText1 p, #aboutReferenceText2 p, #aboutReferenceText3 p, #aboutReferenceText4 p, #aboutReferenceText5 p, #aboutReferenceText6 p {
+        font-size: 18px;
+        margin: 0px;
+        line-height: 1.3;
+    }
+
+    #caroutext1 h5, #caroutext3 h5 {
+        color: white;
+        font-size: 25px;
+        -webkit-text-stroke: 1px black;
+    }
+
+    #caroutext2 h5 {
+        color: black;
+        font-size: 25px;
+        -webkit-text-stroke: 1px white;
+    }
+
+    .card {
+        font-size: 14px; /* affects P */
+    }
+
+    .card-title h2 {
+        font-size: 35px;
+    }
+
+    .card-Title h3, .card-subtitle h3 {
+        font-size: 20px;
+    }
+
+    /* CSS rule to style the mobile logo */
+    .logo {
+        margin-top: 3px;
+    }
+
+        .logo h1 {
+            font-size: 50px;
+            margin: 0;
+            margin-top: -15px;
+            margin-bottom: -15px;
+            float: left;
+            padding-top: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .logo h2 {
+            font-family: cocaColaFont;
+            font-size: 50px;
+            margin-top: -6px;
+            margin-bottom: -15px;
+            padding-top: 0px;
+            padding-left: -10px;
+            padding-right: 2px;
+            float: left;
+        }
+
+        .logo h3 {
+            font-size: 25px;
+            margin-top: 0px;
+            margin-bottom: -5px;
+            padding-top: -3px;
+            padding-left: 5px;
+            float: left;
+        }
+
+        .logo p {
+            font-size: 12px;
+            margin-top: 40px;
+            margin-bottom: 0px;
+            padding-top: 0px;
+            padding-left: 10px;
+        }
+
+    /* New CSS rules to better position the navbar and increase its height, Bootstrap defaults tend to make your site look like a Bootstrap clone! */
+    /* CSS rule to overwrite the navbar background and border color — again, helps to stop your site looking like a Bootstrap clone! */
+    .navbar_coca_cola {
+        background-color: rgba(175,0,0,1); /* Set navbar background color */
+        border-width: 0px;
+        min-height: 70px;
+    }
+
+        /* NAVIGATION MENU*/
+        /*Giving boldness to the text so it is easier to click*/
+        .navbar_coca_cola .navbar-nav > li > a {
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .navbar_coca_cola .navbar-nav .nav-item {
+            margin-top: 0px;
+        }
+
+    /* Let's style the dropdown menu*/
+    .dropdown-menu {
+        text-align: left;
+        background-color: lightgray;
+        margin-top: 20px;
+    }
+
+    /* CSS rule to style the footer */
+    .footer {
+        color: rgba(175,0,0,1);
+        background-color: rgba(175,0,0,1); /* Set navbar footer background color same as header */
+        height: 60px;
+    }
+
+    .navbar-text > a {
+        font-size: 10px;
+    }
+
+    .navbar-text > p {
+        font-size: 18px;
+    }
+
+    .copyright {
+        padding-top: 10px;
+    }
+
+    .social {
+        padding-top: 5px;
+    }
+
+    #modelpagelink {
+        margin-top: 1px;
+        font-size: 18px;
+    }
+
+    .fa-twitter-square:before {
+        content: "\f081";
+        color: white;
+        font-size: 1.8em;
+    }
+
+    .fa-github-square:before {
+        content: "\f092";
+        color: white;
+        font-size: 1.8em;
+    }
+
+    .fa-facebook-square:before {
+        content: "\f082";
+        color: white;
+        font-size: 1.8em;
+    }
+
+    .img-thumbnail {
+        padding: .25rem;
+        margin-top: 5px;
+        background-color: #fff;
+        border: 1px solid #dee2e6;
+        border-radius: 0.25rem;
+        max-width: 200%;
+        height: auto;
+    }
+
+    .btn-responsive {
+        padding: 5px 8px;
+        font-size: 90%;
+        line-height: 1.2;
+        white-space: normal !important;
+    }
+
+    .model3D {
+        height: 750px;
+    }
+}
+
+/* Small devices (landscape phones, 576px-767px)*/
+@media (max-width: 767px) {
+    #main_3d_image {
+        /* The div block for the main_3d_image has no vertical size, so we need a height to see the background image */
+        height: 200px;
+    }
+
+    #main_text h2 {
+        font-size: 25px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+
+    #main_text h3 {
+        font-size: 17px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #main_text p {
+        font-size: 13px;
+        margin: 0px;
+        line-height: 1.2;
+    }
+
+    #aboutPageHead h1, #aboutUnderstandingHead h1, #aboutReferenceHead h1 {
+        font-size: 25px;
+        margin: 0px;
+        line-height: 1.3;
+        padding-bottom: 10px;
+    }
+
+    #aboutPageText p, #aboutUnderstandingText p, #aboutReferenceText1 p, #aboutReferenceText2 p, #aboutReferenceText3 p, #aboutReferenceText4 p, #aboutReferenceText5 p, #aboutReferenceText6 p {
+        font-size: 15px;
+        margin: 0px;
+        line-height: 1.3;
+    }
+
+    #caroutext1 h5, #caroutext3 h5 {
+        color: white;
+        font-size: 30px;
+        -webkit-text-stroke: 1px black;
+    }
+
+    #caroutext2 h5 {
+        color: black;
+        font-size: 30px;
+        -webkit-text-stroke: 1px white;
+    }
+
+    .card {
+        font-size: 14px; /* affects P */
+    }
+
+    .card-title h2 {
+        font-size: 30px;
+    }
+
+    /* CSS rule to style the mobile logo */
+    .logo {
+        margin-top: 3px;
+    }
+
+        .logo h1 {
+            font-size: 50px;
+            margin: 0;
+            margin-top: -15px;
+            margin-bottom: -15px;
+            float: left;
+            padding-top: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .logo h2 {
+            font-family: cocaColaFont;
+            font-size: 50px;
+            margin-top: -6px;
+            margin-bottom: -15px;
+            padding-top: 0px;
+            padding-left: -10px;
+            padding-right: 2px;
+            float: left;
+        }
+
+        .logo h3 {
+            font-size: 25px;
+            margin-top: 0px;
+            margin-bottom: -5px;
+            padding-top: -3px;
+            padding-left: 5px;
+            float: left;
+        }
+
+        .logo p {
+            font-size: 12px;
+            margin-top: 40px;
+            margin-bottom: 0px;
+            padding-top: 0px;
+            padding-left: 10px;
+        }
+
+    /* New CSS rules to better position the navbar and increase its height, Bootstrap defaults tend to make your site look like a Bootstrap clone! */
+    /* CSS rule to overwrite the navbar background and border color — again, helps to stop your site looking like a Bootstrap clone! */
+    .navbar_coca_cola {
+        background-color: rgba(175,0,0,1); /* Set navbar background color */
+        border-width: 0px;
+        min-height: 70px;
+    }
+
+        /* NAVIGATION MENU*/
+        .navbar_coca_cola .navbar-nav > li > a {
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .navbar_coca_cola .navbar-nav .nav-item {
+            margin-top: 0px;
+        }
+
+    /* Let's style the dropdown menu*/
+    .dropdown-menu {
+        text-align: left;
+        background-color: lightgray;
+        margin-top: 15px;
+    }
+
+    /* CSS rule to style the footer */
+    .footer {
+        height: 50px;
+    }
+
+    .navbar-text > a {
+        font-size: 10px;
+    }
+
+    .navbar-text > p {
+        font-size: 12px;
+    }
+
+    .copyright {
+        padding-top: 0px;
+    }
+
+    .social {
+        padding-top: 0px;
+    }
+
+    #modelpagelink {
+        margin-top: -5px;
+        font-size: 12px;
+    }
+
+    .fa-twitter-square:before {
+        content: "\f081";
+        color: white;
+        font-size: 1.2em;
+    }
+
+    .fa-github-square:before {
+        content: "\f092";
+        color: white;
+        font-size: 1.2em;
+    }
+
+    .fa-facebook-square:before {
+        content: "\f082";
+        color: white;
+        font-size: 1.2em;
+    }
+
+    .img-thumbnail {
+        padding: .25rem;
+        margin-top: 5px;
+        background-color: #fff;
+        border: 1px solid #dee2e6;
+        border-radius: 0.25rem;
+        max-width: 200%;
+        height: auto;
+    }
+
+    .btn-responsive {
+        padding: 5px 8px;
+        font-size: 90%;
+        line-height: 1.2;
+        white-space: normal !important;
+    }
+
+    .model3D {
+        height: 400px;
+    }
+}
+/*Special case for smaller phone so that footer is split into 2 rows*/
+@media (max-width: 575px) {
+    #main_3d_image {
+        /* The div block for the main_3d_image has no vertical size, so we need a height to see the background image */
+        height: 180px;
+    }
+
+
+    /* CSS rule to style the footer */
+    .footer {
+        height: 100px;
+    }
+
+    .navbar-text > a {
+        font-size: 10px;
+    }
+
+    .navbar-text > p {
+        font-size: 12px;
+    }
+
+    .copyright {
+        padding-top: 0px;
+    }
+
+    .social {
+        padding-top: 0px;
+    }
+
+    #modelpagelink {
+        margin-top: -5px;
+        font-size: 12px;
+    }
+
+    .fa-twitter-square:before {
+        content: "\f081";
+        color: white;
+        font-size: 1.2em;
+    }
+
+    .fa-github-square:before {
+        content: "\f092";
+        color: white;
+        font-size: 1.2em;
+    }
+
+    .fa-facebook-square:before {
+        content: "\f082";
+        color: white;
+        font-size: 1.2em;
+    }
+
+    .img-thumbnail {
+        padding: .25rem;
+        margin-top: 5px;
+        background-color: #fff;
+        border: 1px solid #dee2e6;
+        border-radius: 0.25rem;
+        max-width: 200%;
+        height: auto;
+    }
+
+    .btn-responsive {
+        padding: 5px 8px;
+        font-size: 90%;
+        line-height: 1.2;
+        white-space: normal !important;
+    }
+
+    .model3D {
+        height: 400px;
+    }
+}
+

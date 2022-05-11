@@ -12,22 +12,14 @@
     border-radius: 10px;
 }
 
+/*Default Thumbnail Size*/
 .img-thumbnail {
     max-width: 300px;
     max-height: 300px;
 }
 
-#siteImg1 {
-    max-width: 400px;
-    max-height: 400px;
-}
-
-#siteImg2 {
-    max-width: 400px;
-    max-height: 400px;
-}
-
-#siteImg3 {
+/*Targeting Thumbnails on Homepage*/
+#siteImg1, #siteImg2, #siteImg3 { 
     max-width: 400px;
     max-height: 400px;
 }
