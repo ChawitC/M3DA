@@ -85,5 +85,16 @@ $(document).ready(function (){
         $('#caroutext1').html('<h5>' + jsonObj.pageTextData[12].textCarou1 + '</h5>');
         $('#caroutext2').html('<h5>' + jsonObj.pageTextData[12].textCarou2 + '</h5>');
         $('#caroutext3').html('<h5>' + jsonObj.pageTextData[12].textCarou3 + '</h5>');
+
+        //Get Interaction Button Titles and Description Text
+        $('#buttontitle1').html('<h3>' + jsonObj.pageTextData[13].buttonTitle1 + '</h3>');
+        $('#buttontitle2').html('<h3>' + jsonObj.pageTextData[13].buttonTitle2 + '</h3>');
+        $('#buttontitle3').html('<h3>' + jsonObj.pageTextData[13].buttonTitle3 + '</h3>');
+        $('#buttontitle4').html('<h3>' + jsonObj.pageTextData[13].buttonTitle4 + '</h3>');
+        $('#buttontext1').html('<p>' + jsonObj.pageTextData[13].buttonText1 + '</p>');
+        $('#buttontext2').html('<p>' + jsonObj.pageTextData[13].buttonText2 + '</p>');
+        $('#buttontext3').html('<p>' + jsonObj.pageTextData[13].buttonText3 + '</p>');
+        $('#buttontext4').html('<p>' + jsonObj.pageTextData[13].buttonText4 + '</p>');
+
     });
 });

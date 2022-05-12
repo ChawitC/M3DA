@@ -43,7 +43,7 @@
     },
     {
       "galleryTitle": "Rendered 3D Images",
-      "galleryDescription": "3D images rendered in Maxon Cinema4D with Hardware Renderer,<br>Composited in Adobe Photoshop CC"
+      "galleryDescription": "3D images rendered in Maxon Cinema4D with Hardware Renderer,<br>Composited in Adobe Photoshop CC."
     },
     {
       "CameraTitle": "Camera Views",
@@ -52,7 +52,7 @@
     {
       "AboutHead": "Statement of Originality",
       "AboutText": "These web pages are submitted as part requirements for the degree of Computing with Digital Media MSc at the University of Sussex.<br>They are the product of my own labour except where indicated in the web page content.<br>These web pages or contents may be freely copied and distributed provided the source is acknowledged.<br><br>These Web application is done as a Module assignment<br>part of 920G5 Mobile 3D Applications (Spring Semester 21/22)<br><br>By Chawit Chiwarattanaphan<br>Candidate number: 244152<br>Email: cc841@sussex.ac.uk",
-      "AboutUnderstandHead": "Points of Deep Understanding<br>",
+      "AboutUnderstandHead": "Points of Deeper Understanding<br>",
       "AboutUnderstandText": "(1) Models were made in Maxon Cinema4D<br>with texture using UV projection method (Coke can)<br>or texture baking (Sprite bottle & Dr Pepper cup)<br><br>(2) Models were exported from Maxon Cinema4D's format (.c4d) exported to VRML2.0 (.wrc)<br>then were coverted to X3D/X3DOM (.x3d) with Instant Reality Transcoders<br>Headlights, rotation animation, and camera were hard coded to .x3d after the fact, since compatability from C4D was limited<br><br>(3) 3D Renders were done in Maxon Cinema4D using Hardware Renderer, 6 Renders were made<br><br>(4) Version control were done with GitHub, with commit to main branch on every significant actions<br>https://github.com/ChawitC/M3DA/commits/main<br>",
       "AboutRefHead": "References",
       "AboutRefText1": "(1) University of Sussex's 920G5: Mobile 3D Applications' module materials, lab notes, lab tutorials and example codes by Professor Martin White.<br><br>(2) Maxon Cinema4D and X3D/X3DOM References<br>(2.1) Bottle Modelling ",
@@ -83,6 +83,17 @@
       "textCarou1": "Coca Cola : Original Taste",
       "textCarou2": "Sprite : Chill Time is Not a Waste of Time",
       "textCarou3": "Dr Pepper : So Odd, So Good, So Misunderstood"
+    },
+    {
+      "buttonTitle1": "Camera Views",
+      "buttonTitle2": "Animation Options",
+      "buttonTitle3": "Render and Lighting Options",
+      "buttonTitle4": "Background Image Options",
+      "buttonText1": "These buttons select a range of X3D model viewpoints,<br>you can also use the dropdown menu",
+      "buttonText2": "These buttons to select a 3D Animation on the model,<br>you can also use the dropdown menu",
+      "buttonText3": "These buttons select render and lighting options,<br>you can also use the dropdown menus",
+      "buttonText4": "These buttons select background image behind the model"
     }
+    
   ]
 }

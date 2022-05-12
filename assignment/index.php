@@ -159,7 +159,7 @@ Email: cc841@sussex.ac.uk
 
                 <div class="col-sm-4">
                     <div class="card">
-                        <a id="pepperRAddr1" href="#" data-fancybox data-caption="My 3D Pepper Cup Render">
+                        <a id="pepperRAddr1" href="#" data-fancybox data-caption="My 3D Dr Pepper Cup Render">
                             <img id="siteImg3" class="card-img-top img-fluid img-thumbnail" src="#" alt="Dr Pepper">
                         </a>
                         <div class="card-body">
@@ -314,9 +314,7 @@ Email: cc841@sussex.ac.uk
                             </ul>
                         </div>
                         <div class="card-body">
-                            <div class="card-Title x3dCamera_Subtitle drinksText">
-                                <h3>Camera Views</h3>
-                            </div>
+                            <div id="buttontitle1" class="card-Title x3dCamera_Subtitle drinksText"></div>
                             <a href="#" class="btn btn-dark btn-responsive" onclick="cameraFront();">Default</a>
                             <a href="#" class="btn btn-light btn-responsive" onclick="cameraBack();">Back</a>
                             <a href="#" class="btn btn-light btn-responsive" onclick="cameraLeft();">Left</a>
@@ -324,42 +322,28 @@ Email: cc841@sussex.ac.uk
                             <a href="#" class="btn btn-light btn-responsive" onclick="cameraTop();">Top</a>
                             <a href="#" class="btn btn-light btn-responsive" onclick="cameraBottom();">Bottom</a>
 
-                            <div class="card-text x3dCameraDescription drinksText">
-                                <p>These buttons select a range of X3D model viewpoints,<br>you can also use the dropdown menu</p>
-                            </div>
+                            <div id="buttontext1" class="card-text x3dCameraDescription drinksText"> </div>
 
-                            <div class="card-Title x3dAnimationSubtitle drinksText">
-                                <h3>Animation Options</h3>
-                            </div>
+                            <div id="buttontitle2" class="card-Title x3dAnimationSubtitle drinksText"></div>
                             <a href="#" class="btn btn-light btn-responsive" onclick="spin(8);">Slow Spinning</a>
                             <a href="#" class="btn btn-light btn-responsive" onclick="spin(4);">Medium Spinning</a>
                             <a href="#" class="btn btn-light btn-responsive" onclick="spin(1);">Fast Spinning</a>
                             <a href="#" class="btn btn-dark btn-responsive" onclick="stopRotation();">Stop</a>
-                            <div class="card-text x3dAnimationDescription drinksText">
-                                <p>These buttons to toggle 3D Animation on the model,<br>you can also use the dropdown menu</p>
-                            </div>
+                            <div id="buttontext2" class="card-text x3dAnimationDescription drinksText"></div>
 
-                            <div class="card-Title x3dRendersubtitle drinksText">
-                                <h3>Render and Lighting Options</h3>
-                            </div>
+                            <div id="buttontitle3" class="card-Title x3dRendersubtitle drinksText"></div>
                             <a href="#" class="btn btn-light btn-responsive" onclick="poly();">Poly</a>
                             <a href="#" class="btn btn-light btn-responsive" onclick="wireframe();">Wire</a>
                             <a href="#" class="btn btn-light btn-responsive" onclick="vertex();">Vertex</a>
                             <a href="#" class="btn btn-dark btn-responsive" onclick="headlight();">Toggle Headlight</a>
-                            <div class="card-text x3dRenderDescription drinksText">
-                                <p>These buttons select render and lighting options,<br>you can also use the dropdown menus</p>
-                            </div>
+                            <div id="buttontext3" class="card-text x3dRenderDescription drinksText"></div>
 
-                            <div class="card-Title x3dRendersubtitle drinksText">
-                                <h3>Background Image Options</h3>
-                            </div>
+                            <div id="buttontitle4" class="card-Title x3dRendersubtitle drinksText"></div>
                             <a href="#" class="btn btn-light btn-responsive" onclick="change3Dbg(1);">Coke Theme</a>
                             <a href="#" class="btn btn-light btn-responsive" onclick="change3Dbg(2);">Sprite Theme</a>
                             <a href="#" class="btn btn-light btn-responsive" onclick="change3Dbg(3);">Dr Pepper Theme</a>
                             <a href="#" class="btn btn-dark btn-responsive" onclick="change3Dbg(0);">None</a>
-                            <div class="card-text x3dRenderDescription drinksText">
-                                <p>These buttons select background image behind the model</p>
-                            </div>
+                            <div id="buttontext4" class="card-text x3dRenderDescription drinksText"></div>
                         </div>
                     </div>
                 </div> <!-- End column for interaction panels -->
