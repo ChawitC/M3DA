@@ -14,7 +14,7 @@ Candidate number: 244152
 
 Email: cc841@sussex.ac.uk
 
-# Points of Deep Understanding
+# Points of Deeper Understanding
 + (1) Models were made in Maxon Cinema4D
 with texture using UV projection method (Coke can)
 or texture baking (Sprite bottle & Dr Pepper cup).
